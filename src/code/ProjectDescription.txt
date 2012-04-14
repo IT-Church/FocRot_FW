@@ -1,0 +1,114 @@
+// Focusing Rotator Firmware Project Description:
+//
+//********************************************************************************************************************
+Source Code Files
+
+Client_Ethernet.c
+	
+	Handles all of reception and transmission of data via a Wired Ethethet connection.
+	All received data is placed in an Ethernet Buffer. Data is pulled out of the Ethernet
+	buffer regularly in the main program loop. When complete commands are received they 
+	are processed in the order in which they arrived.
+	
+Client_HandControl.c
+
+	Handles all reception and transmission of data to and from a wired hand control device.
+	This module used UART2 for sending and receiving data. Data is processed via a ring buffer
+	in the same way as the wired ethernet data.
+	
+Client_Serial.c
+
+	Same as Client_HandControl.c. Handles data transactions between the device and a PC via 
+	a wired serial connection. Uses UART1.
+	
+Client_WiFi.c
+
+	This is the more complecated of the clients. It handles communication with the WiFi module.
+	See the separate document in the Design Docs folder which describes the communication between
+	the two boards. After data is received, through the SPI module, the data is placed in a buffer
+	and processed the same was as all other clients.
+	
+CustomHTTPApp.c
+
+	This file handles all requests for data made by the HTTP (web browser) interface.
+	This file is almost unedited from the Microchip TCP/IP Demo App. Several functions have been
+	added to the bottom of this file so that relevent data can be sent to the web client. 
+
+DIN_Input.c
+	
+	This file contains functions used to detect and read the status of either a temperature probe or 
+	a remote in/out controller connected to the device via the DIN input. The primary function of this
+	module is dependant on the Change Notification feature of the PIC inputs. When the input signals 
+	change state a Timer value is captured and stored. These timer values are monitored continously 
+	and used to determine the duty-cycle of the attached device. The acquired duty cycle is then used
+	to determine a temperature of button press state.
+	
+FocusingRotator.c
+
+	This file contains most of the device specific functionality of the focuser and the rotator. It contains
+	funcitons which interpret and process received commands and initialize the devices.
+
+FocuserMotion.c
+
+	Contains functions for handling home and move operations of the focuser. Note: The actual changing of the 
+	stepper motor outputs happens in Stepper.c in the timer ISRs.
+	
+Main.c
+
+	Contains the main program loop. Performs the TCP/IP stack task operations regularly.
+	
+NVM.c
+	
+	Handles the storage and retrieval of device settings in EEPROM via the SPI interface.
+	
+Rotator.c
+	
+	This file dones't do much! It just calls the main state machine funcitons that are necessary
+	for rotator operation.
+	
+RotatorMotion.c
+
+	This file contains the necessary functionality for moving and homing the rotator. As with the focuser,
+	this module does not actually pulse the stepper motor outputs. That is handled in the Stepper.c module.
+	
+Stepper.c
+
+	This file contains functions for setting the stepper motor speed and motor power. It also contains the 
+	timer ISRs which actually move the motors toward the target positions.
+	
+TCP/IP Stack Folder
+
+	Obviously, this folder contains all of the necessary TCP/IP modules. These modules are unchanged from the 
+	Microchip Applications Library downloaded files.
+	
+TempComp.c
+
+	This module handles temperature compensation operation for the focuser. If temperature compensation is enabled
+	the device will temerature compensate as long as another function does not reset the TC module. When the TC module
+	is reset it delays for a couple of seconds, verifying that the CurrentPos and TargetPos remain the same (and equal) 
+	before starting to temperature compensate again. This allows the moves to be executed while Temperature compensation
+	is active.
+
+//	
+//********************************************************************************************************************
+
+Header Files
+
+Just about every module has a corresponding header file as usual.
+
+FocuserProfiles.h
+	This file contains some special definitions used for defining the various types of focusers. It also contains
+	the specifications of the rotator.
+	
+HardwareProfile.h
+	This file contains all of the physical pin assignment definitions used when initializing the PIC.
+	
+
+	
+	
+
+	
+
+	
+	
+	

@@ -1,0 +1,3011 @@
+Microchip Technology Inc, vv3_30 (B) K
+
+Tool Name:
+  c:\program files (x86)\microchip\mplabc30\v3.30c\bin\bin\..\bin/pic30-coff-ld.exe
+
+Command:
+  -p24HJ128GP204 \
+  -oFocusingRotator.cof \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../support/dsPIC33F/gld \
+  CustomHTTPApp.o \
+  DIN_Input.o \
+  FocuserMotion.o \
+  FocusingRotator.o \
+  Main.o \
+  NVM.o \
+  Rotator.o \
+  RotatorMotion.o \
+  Stepper.o \
+  TempComp.o \
+  Announce.o \
+  ARCFOUR.o \
+  ARP.o \
+  AutoIP.o \
+  BerkeleyAPI.o \
+  BigInt.o \
+  BigInt_helper.o \
+  Delay.o \
+  DHCP.o \
+  DHCPs.o \
+  DNS.o \
+  DNSs.o \
+  DynDNS.o \
+  ENC28J60.o \
+  FileSystem.o \
+  FTP.o \
+  Hashes.o \
+  Helpers.o \
+  HTTP2.o \
+  ICMP.o \
+  IP.o \
+  LCDBlocking.o \
+  MPFS2.o \
+  NBNS.o \
+  Random.o \
+  Reboot.o \
+  RSA.o \
+  SMTP.o \
+  SNMP.o \
+  SNMPv3.o \
+  SNMPv3USM.o \
+  SNTP.o \
+  SPIEEPROM.o \
+  SPIFlash.o \
+  SPIRAM.o \
+  SSL.o \
+  StackTsk.o \
+  TCP.o \
+  TCPPerformanceTest.o \
+  Telnet.o \
+  TFTPc.o \
+  Tick.o \
+  UART.o \
+  UART2TCPBridge.o \
+  UDP.o \
+  UDPPerformanceTest.o \
+  ZeroconfHelper.o \
+  ZeroconfLinkLocal.o \
+  ZeroconfMulticastDNS.o \
+  CommandProcessing.o \
+  Client_Ethernet.o \
+  Client_HandControl.o \
+  Client_Serial.o \
+  Client_WiFi.o \
+  -L..\src\code \
+  -L..\src\TCPIP_Stack \
+  -LC:\Program Files (x86)\Microchip\mplabc30\v3.30c\bin \
+  -Tp24HJ128GP204.gld.00 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Map=FocusingRotator.map \
+  --report-mem \
+  -start-group \
+  --library=pic30-coff \
+  --library=m-coff \
+  --library=c-coff \
+  -end-group \
+
+Archive member included because of file (symbol)
+
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+                              (_resetPRI)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o) (_data_init_standard)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(floatsisf.o)
+                              DIN_Input.o (__floatsisf)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(addsf3.o)
+                              DIN_Input.o (__addsf3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsf3.o)
+                              DIN_Input.o (__divsf3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsi3.o)
+                              FocusingRotator.o (__divsi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(udivsi3.o)
+                              FocusingRotator.o (__udivsi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fne.o)
+                              FocusingRotator.o (__nesf2)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsf3.o)
+                              FocusingRotator.o (__mulsf3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixunssfsi.o)
+                              FocusingRotator.o (__fixunssfsi)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixsfsi.o)
+                              FocusingRotator.o (__fixsfsi)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umodsi3.o)
+                              RotatorMotion.o (__umodsi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(muldi3.o)
+                              TempComp.o (__muldi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divmoddi3.o)
+                              AutoIP.o (__udivdi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fpack.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(floatsisf.o) (_fpack)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack2.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(addsf3.o) (_funpack2)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(futil.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(addsf3.o) (_fPropagateNaN)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fcompare.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fne.o) (_fcompare)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixunssfsi.o) (_funpack)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umuldi3.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(muldi3.o) (__umuldi3)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcmp.XXo)
+                              CustomHTTPApp.o (memcmp)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcmp.XXo)
+                              CustomHTTPApp.o (strcmp)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcpy.XXo)
+                              FocusingRotator.o (strcpy)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strlen.XXo)
+                              FocusingRotator.o (strlen)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcat.XXo)
+                              FocusingRotator.o (strcat)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncat.XXo)
+                              FocusingRotator.o (strncat)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo)
+                              FocusingRotator.o (strtoul)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memset.XXo)
+                              Main.o (memset)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(atol.XXo)
+                              HTTP2.o (atol)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcpy.XXo)
+                              TCP.o (memcpy)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncmp.XXo)
+                              CommandProcessing.o (strncmp)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(errno.XXo)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo) (errno)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(isspace.XXo)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo) (isspace)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(isalpha.XXo)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo) (isalpha)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(toupper.XXo)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo) (toupper)
+c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsi3.o)
+                              c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo) (__mulsi3)
+
+
+Program Memory  [Origin = 0x200, Length = 0x155fe]
+
+section                    address   length (PC units)   length (bytes) (dec)
+-------                    -------   -----------------   --------------------
+.text                        0x200               0x9fe           0xefd  (3837)
+.const                       0xbfe              0x1216          0x1b21  (6945)
+.text                       0x1e14              0xdc0c         0x14a12  (84498)
+.dinit                      0xfa20               0x1a0           0x270  (624)
+.text                       0xfbc0               0x598           0x864  (2148)
+
+                     Total program memory used (bytes):        0x17f04  (98052) 74%
+
+
+Data Memory  [Origin = 0x800, Length = 0x2000]
+
+section                    address      alignment gaps    total length  (dec)
+-------                    -------      --------------    -------------------
+.nbss                        0x800                   0           0x9e2  (2530)
+.ndata                      0x11e2                   0            0xd8  (216)
+.nbss                       0x12ba                   0           0x112  (274)
+.ndata                      0x13cc                   0             0xc  (12)
+BigInt_helper_vars          0x13d8                   0             0xc  (12)
+.nbss                       0x13e4                   0            0x1c  (28)
+.ndata                      0x1400                   0             0x4  (4)
+.nbss                       0x1404                   0             0x4  (4)
+.ndata                      0x1408                   0             0x8  (8)
+.nbss                       0x1410                   0             0xa  (10)
+.ndata                      0x141a                   0             0x6  (6)
+_03badaf04f84c8c0           0x1420                   0             0x2  (2)
+.ndata                      0x1422                   0             0x2  (2)
+_03bcbaf04f84c8cc           0x1424                   0             0x2  (2)
+.ndata                      0x1426                   0             0x2  (2)
+_03b223104f84c8cf           0x1428                   0             0x2  (2)
+.bss                        0x142a                   0             0x2  (2)
+
+                        Total data memory used (bytes):          0xc2c  (3116) 38%
+
+
+Dynamic Memory Usage
+
+region                     address                      maximum length  (dec)
+------                     -------                      ---------------------
+heap                             0                                   0  (0)
+stack                       0x142c                              0x13d4  (5076)
+
+                        Maximum dynamic memory (bytes):         0x13d4  (5076)
+
+
+External Symbols in Data Memory (by address):
+
+                    0x0802                  _MyFocuser1
+                    0x08a6                  _MyRotator1
+                    0x08e0                  _HubInfo
+                    0x08e4                  _WiFiInfo
+                    0x09e4                  _CommandBuffer1
+                    0x0b44                  _CommandBuffer2
+                    0x0ca4                  _HubCommandBuffer
+                    0x0f46                  _curHTTP
+                    0x0fdc                  _httpStubs
+                    0x0fe4                  _curHTTPID
+                    0x10d8                  _lastRead
+                    0x10e2                  _UDPSocketInfo
+                    0x1142                  _activeUDPSocket
+                    0x1144                  _UDPTxCount
+                    0x1146                  _UDPRxCount
+                    0x1172                  _DeviceStatus
+                    0x11a3                  _lastStatusChkSum
+                    0x11a6                  _AppConfig
+                    0x11d9                  _AN0String
+                    0x11e2                  _EthernetBuffer
+                    0x1214                  _EB_Read
+                    0x1216                  _EB_Write
+                    0x1218                  _HandControlBuffer
+                    0x124a                  _HCB_Read
+                    0x124c                  _HCB_Write
+                    0x124e                  _SerialBuffer
+                    0x1280                  _SB_Read
+                    0x1282                  _SB_Write
+                    0x1284                  _WiFiBuffer
+                    0x12b6                  _WiFiBfrRead
+                    0x12b8                  _WiFiBfrWrite
+                    0x1357                  _MySocket
+                    0x13c2                  _remoteNode
+                    0x13cc                  _CmdBuff1Head
+                    0x13ce                  _CmdBuff1Tail
+                    0x13d0                  _CmdBuff2Head
+                    0x13d2                  _CmdBuff2Tail
+                    0x13d4                  _HubBuffHead
+                    0x13d6                  _HubBuffTail
+                    0x13d8                  __iA
+                    0x13da                  __xA
+                    0x13dc                  __iB
+                    0x13de                  __xB
+                    0x13e0                  __iR
+                    0x13e2                  __wC
+                    0x13f8                  _HOMING_STATE
+                    0x13fa                  _MOVING_STATE
+                    0x1400                  _absMoveTargetPos
+                    0x141a                  _motionState
+                    0x141b                  _motionRequest
+                    0x141e                  _DHCPClientInitializedOnce
+                    0x142a                  _errno
+
+External Symbols in Data Memory (by name):
+
+                    0x11d9                  _AN0String
+                    0x11a6                  _AppConfig
+                    0x13cc                  _CmdBuff1Head
+                    0x13ce                  _CmdBuff1Tail
+                    0x13d0                  _CmdBuff2Head
+                    0x13d2                  _CmdBuff2Tail
+                    0x09e4                  _CommandBuffer1
+                    0x0b44                  _CommandBuffer2
+                    0x141e                  _DHCPClientInitializedOnce
+                    0x1172                  _DeviceStatus
+                    0x1214                  _EB_Read
+                    0x1216                  _EB_Write
+                    0x11e2                  _EthernetBuffer
+                    0x124a                  _HCB_Read
+                    0x124c                  _HCB_Write
+                    0x13f8                  _HOMING_STATE
+                    0x1218                  _HandControlBuffer
+                    0x13d4                  _HubBuffHead
+                    0x13d6                  _HubBuffTail
+                    0x0ca4                  _HubCommandBuffer
+                    0x08e0                  _HubInfo
+                    0x13fa                  _MOVING_STATE
+                    0x0802                  _MyFocuser1
+                    0x08a6                  _MyRotator1
+                    0x1357                  _MySocket
+                    0x1280                  _SB_Read
+                    0x1282                  _SB_Write
+                    0x124e                  _SerialBuffer
+                    0x1146                  _UDPRxCount
+                    0x10e2                  _UDPSocketInfo
+                    0x1144                  _UDPTxCount
+                    0x12b6                  _WiFiBfrRead
+                    0x12b8                  _WiFiBfrWrite
+                    0x1284                  _WiFiBuffer
+                    0x08e4                  _WiFiInfo
+                    0x13d8                  __iA
+                    0x13dc                  __iB
+                    0x13e0                  __iR
+                    0x13e2                  __wC
+                    0x13da                  __xA
+                    0x13de                  __xB
+                    0x1400                  _absMoveTargetPos
+                    0x1142                  _activeUDPSocket
+                    0x0f46                  _curHTTP
+                    0x0fe4                  _curHTTPID
+                    0x142a                  _errno
+                    0x0fdc                  _httpStubs
+                    0x10d8                  _lastRead
+                    0x11a3                  _lastStatusChkSum
+                    0x141b                  _motionRequest
+                    0x141a                  _motionState
+                    0x13c2                  _remoteNode
+
+External Symbols in Program Memory (by address):
+
+                  0x000200                  __resetPRI
+                  0x000222                  __psv_init
+                  0x000232                  __data_init_standard
+                  0x000232                  __data_init
+                  0x000290                  __DefaultInterrupt
+                  0x000294                  _isspace
+                  0x0002a4                  _isalpha
+                  0x0002b8                  _toupper
+                  0x0002c6                  ___mulp32eds3
+                  0x0002c6                  ___mulsi3
+                  0x0002c6                  ___mulp32peds3
+                  0x0002d2                  ___floatsisf
+                  0x000328                  ___subsf3
+                  0x00032a                  ___addsf3
+                  0x0003e4                  ___divsf3
+                  0x000468                  ___divsi3
+                  0x000486                  ___udivsi3
+                  0x0004a6                  ___nesf2
+                  0x0004aa                  ___mulsf3
+                  0x000512                  ___fixunssfsi
+                  0x000548                  ___fixsfsi
+                  0x00058a                  ___umodsi3
+                  0x000590                  ___muldi3
+                  0x000612                  ___udivmoddi3
+                  0x0006e0                  ___udivdi3
+                  0x0006ee                  ___umoddi3
+                  0x0006f6                  ___divdi3
+                  0x000730                  ___moddi3
+                  0x000802                  __fpack
+                  0x00084e                  __funpack2
+                  0x00085e                  __fPropagateNaN
+                  0x000870                  __fbopExit
+                  0x000878                  __fbopReturnNaN
+                  0x00087e                  __fcompare
+                  0x0008b4                  __funpack
+                  0x0008de                  ___umuldi3
+                  0x000922                  _memcmp
+                  0x000956                  _strcmp
+                  0x000966                  _strcpy
+                  0x000976                  _strlen
+                  0x000982                  _strcat
+                  0x00099a                  _strncat
+                  0x0009be                  _strtoul
+                  0x000ad0                  _strtol
+                  0x000b5c                  _memset
+                  0x000b6a                  _atol
+                  0x000bce                  _memcpy
+                  0x000bdc                  _strncmp
+                  0x001a54                  _MinReqVersion
+                  0x001dbc                  _TCPSocketInitializer
+                  0x001eb0                  _TCPInit
+                  0x001f7a                  _TCPOpen
+                  0x0020c2                  _TCPWasReset
+                  0x0020e6                  _TCPIsConnected
+                  0x002102                  _TCPDisconnect
+                  0x00219e                  _TCPClose
+                  0x0021b0                  _TCPGetRemoteInfo
+                  0x0021cc                  _TCPFlush
+                  0x0021e8                  _TCPIsPutReady
+                  0x002232                  _TCPPut
+                  0x0022bc                  _TCPPutArray
+                  0x002388                  _TCPPutString
+                  0x0023a4                  _TCPGetTxFIFOFull
+                  0x0023c2                  _TCPDiscard
+                  0x0023e0                  _TCPIsGetReady
+                  0x002412                  _TCPGet
+                  0x00247a                  _TCPGetArray
+                  0x002534                  _TCPGetRxFIFOFree
+                  0x002550                  _TCPPeekArray
+                  0x0025f6                  _TCPPeek
+                  0x00260e                  _TCPFindArrayEx
+                  0x002892                  _TCPFindEx
+                  0x0028b0                  _TCPTick
+                  0x002d02                  _TCPProcess
+                  0x003da2                  _TCPAdjustFIFOSize
+                  0x003fa0                  _InitFocusers
+                  0x003fe6                  _InitFocusingRotator
+                  0x004210                  _ResetLED
+                  0x00422a                  _AddCmdToBfr
+                  0x004300                  _ProcessReceivedCommands
+                  0x0043b4                  _ProcessFocusingRotatorCmd
+                  0x004f0a                  _conditionsOkToStartMove
+                  0x004f78                  _sendOutput
+                  0x004fc6                  _prepareConfigString
+                  0x0051c6                  _prepareConfigStringRot
+                  0x0052e8                  _prepareStatusString
+                  0x005488                  _prepareStatusStringRot
+                  0x005570                  _prepareHubInfoString
+                  0x005772                  _prepareDiagString
+                  0x005794                  _getTempString
+                  0x00581a                  _getSignedDecString
+                  0x005a18                  _getUnsignedDecString
+                  0x005bd0                  _getUnsignedIntFromString
+                  0x005be2                  _DoFocuserOperations
+                  0x005c20                  _CalculateTemp
+                  0x005d4a                  _CheckRemoteInOutPress
+                  0x005dce                  _GetIPString
+                  0x005e2a                  _HTTPPrint
+                  0x005ecc                  _HTTPPrint_
+                  0x005ee4                  _HTTPInit
+                  0x005f50                  _HTTPServer
+                  0x006f98                  _HTTPURLDecode
+                  0x007062                  _HTTPGetArg
+                  0x0070a2                  _HTTPReadPostName
+                  0x0070ca                  _HTTPReadPostValue
+                  0x00749e                  _HTTPIncFile
+                  0x007552                  _MACInit
+                  0x007672                  _MACIsLinked
+                  0x007686                  _MACIsTxReady
+                  0x00769e                  _MACDiscardRx
+                  0x0076d2                  _MACGetFreeRxSize
+                  0x00775a                  _MACGetHeader
+                  0x00783a                  _MACPutHeader
+                  0x00788e                  _MACFlush
+                  0x0079aa                  _MACSetReadPtrInRx
+                  0x0079d8                  _MACSetWritePtr
+                  0x007a06                  _MACSetReadPtr
+                  0x007a34                  _MACCalcRxChecksum
+                  0x007a8c                  _CalcIPBufferChecksum
+                  0x007b40                  _MACMemCopyAsync
+                  0x007cf2                  _MACIsMemCopyDone
+                  0x007d0a                  _MACGet
+                  0x007d3c                  _MACGetArray
+                  0x007e16                  _MACPut
+                  0x007e4e                  _MACPutArray
+                  0x008006                  _ReadPHYReg
+                  0x00813c                  _WritePHYReg
+                  0x00818c                  _MACPowerDown
+                  0x0081ba                  _MACPowerUp
+                  0x0081da                  _SetCLKOUT
+                  0x0081f0                  _GetCLKOUT
+                  0x00820a                  _LoadConfigFromNVM
+                  0x008472                  _readDeviceSettingsFromNVM
+                  0x0084a6                  _SaveDeviceConfig
+                  0x00887e                  _saveDeviceSettingsToNVM
+                  0x0088a2                  _SaveTempCompStartPoint
+                  0x008a3a                  _SaveCurrentPositionFoc
+                  0x008b2c                  _SaveCurrentPositionRot
+                  0x008c18                  _SaveMagnetState
+                  0x008c46                  _ResetToDefaults
+                  0x008c72                  _setupSPI
+                  0x008c82                  _writeEEP_SPI
+                  0x008c9a                  _readSR
+                  0x008cb4                  _ReadNVM
+                  0x008cdc                  _writeNVM
+                  0x008d02                  _writeEnable
+                  0x008d10                  _GetMacAddrFromNvm
+                  0x008d64                  _MPFSInit
+                  0x008d98                  _MPFSOpen
+                  0x008ee6                  _MPFSOpenID
+                  0x008f6a                  _MPFSClose
+                  0x008f8c                  _MPFSGet
+                  0x00908e                  _MPFSGetArray
+                  0x00919c                  _MPFSGetLong
+                  0x0091bc                  _MPFSSeek
+                  0x009398                  _MPFSFormat
+                  0x009430                  _MPFSPutArray
+                  0x0094d0                  _MPFSPutEnd
+                  0x009528                  _MPFSGetTimestamp
+                  0x009576                  _MPFSGetMicrotime
+                  0x0095c4                  _MPFSGetFlags
+                  0x009608                  _MPFSGetSize
+                  0x009656                  _MPFSGetBytesRem
+                  0x00969e                  _MPFSGetStartAddr
+                  0x0096ee                  _MPFSGetEndAddr
+                  0x009748                  _MPFSGetFilename
+                  0x0097b0                  _MPFSGetPosition
+                  0x0097d0                  _MPFSGetID
+                  0x00981e                  _HTTPNeedsAuth
+                  0x009850                  _HTTPCheckAuth
+                  0x00987a                  _HTTPExecuteGet
+                  0x009926                  _HTTPExecutePost
+                  0x009c2e                  _HTTPPrint_builddate
+                  0x009c6a                  _HTTPPrint_version
+                  0x009c84                  _HTTPPrint_cookiename
+                  0x009cbe                  _HTTPPrint_uploadedmd5
+                  0x009cfe                  _HTTPPrintIP
+                  0x009d4c                  _HTTPPrint_config_hostname
+                  0x009d64                  _HTTPPrint_config_dhcpchecked
+                  0x009d86                  _HTTPPrint_config_ip
+                  0x009dac                  _HTTPPrint_config_gw
+                  0x009dd2                  _HTTPPrint_config_subnet
+                  0x009df8                  _HTTPPrint_config_dns1
+                  0x009e1e                  _HTTPPrint_config_dns2
+                  0x009e44                  _HTTPPrint_config_mac
+                  0x009ed6                  _HTTPPrint_read_comm
+                  0x009ede                  _HTTPPrint_write_comm
+                  0x009ee6                  _HTTPPrint_reboot
+                  0x009eee                  _HTTPPrint_rebootaddr
+                  0x009f06                  _HTTPPrint_ddns_user
+                  0x009f0c                  _HTTPPrint_ddns_pass
+                  0x009f12                  _HTTPPrint_ddns_host
+                  0x009f18                  _HTTPPrint_ddns_service
+                  0x009f20                  _HTTPPrint_ddns_status
+                  0x009f3a                  _HTTPPrint_ddns_status_msg
+                  0x009f7c                  _HTTPPrint_smtps_en
+                  0x009f96                  _HTTPPrint_snmp_en
+                  0x009fb0                  _HTTPPrint_status_ok
+                  0x009fea                  _HTTPPrint_status_fail
+                  0x00a024                  _HTTPPrint_fNickname
+                  0x00a03e                  _HTTPPrint_fCurrentPos
+                  0x00a066                  _HTTPPrint_fCurrentTemp
+                  0x00a08c                  _HTTPPrint_fTempCompOn
+                  0x00a0ae                  _DHCPInit
+                  0x00a0ea                  _DHCPDisable
+                  0x00a104                  _DHCPEnable
+                  0x00a118                  _DHCPIsEnabled
+                  0x00a130                  _DHCPIsBound
+                  0x00a13e                  _DHCPStateChanged
+                  0x00a15c                  _DHCPIsServerDetected
+                  0x00a16c                  _DHCPTask
+                  0x00a918                  _LFSRSeedRand
+                  0x00a958                  _LFSRRand
+                  0x00a9c6                  _GenerateRandomDWORD
+                  0x00aabc                  _StringToIPAddress
+                  0x00ac3c                  _Base64Decode
+                  0x00ad7a                  _uitoa
+                  0x00adf8                  _hexatob
+                  0x00ae6e                  _btohexa_high
+                  0x00ae96                  _btohexa_low
+                  0x00aebc                  _stricmppgm2ram
+                  0x00af54                  _swaps
+                  0x00af6e                  _swapl
+                  0x00afcc                  _CalcIPChecksum
+                  0x00b040                  _strupr
+                  0x00b07a                  _FormatNetBIOSName
+                  0x00b0c2                  _strnchr
+                  0x00b108                  _UDPInit
+                  0x00b122                  _UDPOpenEx
+                  0x00b23e                  _UDPTask
+                  0x00b412                  _UDPIsOpened
+                  0x00b434                  _UDPClose
+                  0x00b46c                  _UDPSetTxBuffer
+                  0x00b47e                  _UDPSetRxBuffer
+                  0x00b490                  _UDPIsPutReady
+                  0x00b4c4                  _UDPPut
+                  0x00b4f6                  _UDPPutArray
+                  0x00b52c                  _UDPPutString
+                  0x00b540                  _UDPFlush
+                  0x00b58e                  _UDPIsGetReady
+                  0x00b5be                  _UDPGet
+                  0x00b5f2                  _UDPGetArray
+                  0x00b63a                  _UDPDiscard
+                  0x00b654                  _UDPProcess
+                  0x00b800                  _DNSBeginUsage
+                  0x00b81c                  _DNSEndUsage
+                  0x00b840                  _DNSResolve
+                  0x00b86e                  _DNSIsResolved
+                  0x00bec2                  _InitClient_WiFi
+                  0x00bee6                  _DoWiFiWork
+                  0x00c08e                  _ReceiveWiFiCmds
+                  0x00c28a                  _SendStringWiFiPassThru
+                  0x00c2d6                  _pushByteToWiFiBuffer
+                  0x00c30c                  _writeByteSpi
+                  0x00c34a                  _ExitPassThruMode
+                  0x00c382                  _EnterPassThruMode
+                  0x00c3a8                  _GetWiFiData
+                  0x00c436                  _SetWiFiData
+                  0x00c4a0                  _AutoIPInit
+                  0x00c4be                  _AutoIPIsConfigured
+                  0x00c4d6                  _AutoIPConfigIsInProgress
+                  0x00c4e6                  _AutoIPTasks
+                  0x00c8be                  _AutoIPConflict
+                  0x00c948                  _AutoIPDisable
+                  0x00c9ea                  _AutoIPEnable
+                  0x00c9f8                  _AutoIPIsDisabled
+                  0x00ca10                  _AutoIPRandSeed
+                  0x00ca20                  _AutoIPRand
+                  0x00ca3a                  _FocuserMotionStateMachine
+                  0x00cd82                  _finalizeMove
+                  0x00cd9e                  _abortHome
+                  0x00cdc6                  _RequestHaltFoc
+                  0x00cdd4                  _RequestAbsoluteMoveFoc
+                  0x00cdec                  _RequestHomeStartFoc
+                  0x00ce06                  _StartRelativeMoveFoc
+                  0x00ce4c                  _EndRelativeMoveFoc
+                  0x00ce5c                  _DoFinalHomeMove
+                  0x00cf20                  _FocHomeFailed
+                  0x00cf44                  _HomingStateMachine
+                  0x00d08c                  _RequestHomeStartRot
+                  0x00d09c                  _RequestHaltRot
+                  0x00d0ca                  _StartRelativeMoveRot
+                  0x00d126                  _EndRelativeMoveRot
+                  0x00d13e                  _HomeFailed
+                  0x00d15a                  _HomeCompleted
+                  0x00d17c                  _MovingStateMachine
+                  0x00d26a                  _FinalizeMove
+                  0x00d286                  _RequestAbsoluteMoveRot
+                  0x00d2ae                  _StartHomeMove
+                  0x00d320                  _GetShortestMoveDirection
+                  0x00d3b0                  _MagnetMonitorStateMachine
+                  0x00d406                  _InitDIN_Input
+                  0x00d434                  __IC1Interrupt
+                  0x00d4b2                  _ProcessDinInData
+                  0x00d8ae                  _ARPInit
+                  0x00d8e4                  _ARPProcess
+                  0x00da78                  _ARPResolve
+                  0x00db44                  _ARPIsResolved
+                  0x00dc3e                  _SwapARPPacket
+                  0x00dc6a                  __AddressError
+                  0x00dc74                  __StackError
+                  0x00dc7e                  _main
+                  0x00dca8                  _InitPic
+                  0x00dff6                  _SaveAppConfig
+                  0x00e01e                  _InterpretCommandString
+                  0x00e3b0                  _InitSteppers
+                  0x00e3e6                  __T4Interrupt
+                  0x00e4c0                  __T5Interrupt
+                  0x00e614                  _SetStepperSpeedPPS
+                  0x00e656                  _SetStepperCurrent
+                  0x00e6ce                  _FreezeStepper
+                  0x00e6e0                  _UnfreezeStepper
+                  0x00e6f2                  _XEEInit
+                  0x00e710                  _XEEBeginRead
+                  0x00e724                  _XEERead
+                  0x00e762                  _XEEEndRead
+                  0x00e76a                  _XEEReadArray
+                  0x00e836                  _XEEBeginWrite
+                  0x00e84a                  _XEEWrite
+                  0x00e886                  _XEEWriteArray
+                  0x00e8a8                  _XEEEndWrite
+                  0x00e9b4                  _XEEIsBusy
+                  0x00ea20                  _NBNSTask
+                  0x00ed2e                  _ReceiveEthernetCmds
+                  0x00edd4                  _ProcessBufferData
+                  0x00efa4                  _sendStringEthernet
+                  0x00effa                  _InitClient_Serial
+                  0x00f042                  _sendByteUART
+                  0x00f058                  _sendStringUART
+                  0x00f082                  __U1RXInterrupt
+                  0x00f0e6                  _ReceiveSerialCmds
+                  0x00f2b6                  _InitClient_HandControl
+                  0x00f2f0                  _sendByteUART_HC
+                  0x00f306                  _sendStringUART_HC
+                  0x00f330                  __U2RXInterrupt
+                  0x00f394                  _ReceiveSerialCmds_HC
+                  0x00f568                  _InitTempComp
+                  0x00f576                  _DoTempComp
+                  0x00f7e6                  _StackInit
+                  0x00f814                  _StackTask
+                  0x00fa14                  _StackApplications
+                  0x00fbc0                  _IPGetHeader
+                  0x00fc84                  _IPPutHeader
+                  0x00fd1c                  _IPSetRxBuffer
+                  0x00fd58                  _AnnounceIP
+                  0x00fdc8                  _DiscoveryTask
+                  0x00fe8e                  _TickInit
+                  0x00ff0a                  _TickGet
+                  0x00ff16                  _TickGetDiv256
+                  0x00ff3e                  _TickGetDiv64K
+                  0x00ff66                  _TickConvertToMilliseconds
+                  0x00ff8a                  __T1Interrupt
+                  0x00ffa2                  __addBI
+                  0x00ffc2                  __subBI
+                  0x00ffe2                  __zeroBI
+                  0x00ffee                  __msbBI
+                  0x00fffe                  __mulBI
+                  0x010034                  __sqrBI
+                  0x01003e                  __masBI
+                  0x010060                  __copyBI
+                  0x01007e                  _ICMPProcess
+                  0x0100ea                  _DelayMs
+                  0x010114                  _Delay10us
+                  0x01014c                  _DoRotatorOperations
+
+External Symbols in Program Memory (by name):
+
+                  0x00d8ae                  _ARPInit
+                  0x00db44                  _ARPIsResolved
+                  0x00d8e4                  _ARPProcess
+                  0x00da78                  _ARPResolve
+                  0x00422a                  _AddCmdToBfr
+                  0x00fd58                  _AnnounceIP
+                  0x00c4d6                  _AutoIPConfigIsInProgress
+                  0x00c8be                  _AutoIPConflict
+                  0x00c948                  _AutoIPDisable
+                  0x00c9ea                  _AutoIPEnable
+                  0x00c4a0                  _AutoIPInit
+                  0x00c4be                  _AutoIPIsConfigured
+                  0x00c9f8                  _AutoIPIsDisabled
+                  0x00ca20                  _AutoIPRand
+                  0x00ca10                  _AutoIPRandSeed
+                  0x00c4e6                  _AutoIPTasks
+                  0x00ac3c                  _Base64Decode
+                  0x007a8c                  _CalcIPBufferChecksum
+                  0x00afcc                  _CalcIPChecksum
+                  0x005c20                  _CalculateTemp
+                  0x005d4a                  _CheckRemoteInOutPress
+                  0x00a0ea                  _DHCPDisable
+                  0x00a104                  _DHCPEnable
+                  0x00a0ae                  _DHCPInit
+                  0x00a130                  _DHCPIsBound
+                  0x00a118                  _DHCPIsEnabled
+                  0x00a15c                  _DHCPIsServerDetected
+                  0x00a13e                  _DHCPStateChanged
+                  0x00a16c                  _DHCPTask
+                  0x00b800                  _DNSBeginUsage
+                  0x00b81c                  _DNSEndUsage
+                  0x00b86e                  _DNSIsResolved
+                  0x00b840                  _DNSResolve
+                  0x010114                  _Delay10us
+                  0x0100ea                  _DelayMs
+                  0x00fdc8                  _DiscoveryTask
+                  0x00ce5c                  _DoFinalHomeMove
+                  0x005be2                  _DoFocuserOperations
+                  0x01014c                  _DoRotatorOperations
+                  0x00f576                  _DoTempComp
+                  0x00bee6                  _DoWiFiWork
+                  0x00ce4c                  _EndRelativeMoveFoc
+                  0x00d126                  _EndRelativeMoveRot
+                  0x00c382                  _EnterPassThruMode
+                  0x00c34a                  _ExitPassThruMode
+                  0x00d26a                  _FinalizeMove
+                  0x00cf20                  _FocHomeFailed
+                  0x00ca3a                  _FocuserMotionStateMachine
+                  0x00b07a                  _FormatNetBIOSName
+                  0x00e6ce                  _FreezeStepper
+                  0x00a9c6                  _GenerateRandomDWORD
+                  0x0081f0                  _GetCLKOUT
+                  0x005dce                  _GetIPString
+                  0x008d10                  _GetMacAddrFromNvm
+                  0x00d320                  _GetShortestMoveDirection
+                  0x00c3a8                  _GetWiFiData
+                  0x009850                  _HTTPCheckAuth
+                  0x00987a                  _HTTPExecuteGet
+                  0x009926                  _HTTPExecutePost
+                  0x007062                  _HTTPGetArg
+                  0x00749e                  _HTTPIncFile
+                  0x005ee4                  _HTTPInit
+                  0x00981e                  _HTTPNeedsAuth
+                  0x005e2a                  _HTTPPrint
+                  0x009cfe                  _HTTPPrintIP
+                  0x005ecc                  _HTTPPrint_
+                  0x009c2e                  _HTTPPrint_builddate
+                  0x009d64                  _HTTPPrint_config_dhcpchecked
+                  0x009df8                  _HTTPPrint_config_dns1
+                  0x009e1e                  _HTTPPrint_config_dns2
+                  0x009dac                  _HTTPPrint_config_gw
+                  0x009d4c                  _HTTPPrint_config_hostname
+                  0x009d86                  _HTTPPrint_config_ip
+                  0x009e44                  _HTTPPrint_config_mac
+                  0x009dd2                  _HTTPPrint_config_subnet
+                  0x009c84                  _HTTPPrint_cookiename
+                  0x009f12                  _HTTPPrint_ddns_host
+                  0x009f0c                  _HTTPPrint_ddns_pass
+                  0x009f18                  _HTTPPrint_ddns_service
+                  0x009f20                  _HTTPPrint_ddns_status
+                  0x009f3a                  _HTTPPrint_ddns_status_msg
+                  0x009f06                  _HTTPPrint_ddns_user
+                  0x00a03e                  _HTTPPrint_fCurrentPos
+                  0x00a066                  _HTTPPrint_fCurrentTemp
+                  0x00a024                  _HTTPPrint_fNickname
+                  0x00a08c                  _HTTPPrint_fTempCompOn
+                  0x009ed6                  _HTTPPrint_read_comm
+                  0x009ee6                  _HTTPPrint_reboot
+                  0x009eee                  _HTTPPrint_rebootaddr
+                  0x009f7c                  _HTTPPrint_smtps_en
+                  0x009f96                  _HTTPPrint_snmp_en
+                  0x009fea                  _HTTPPrint_status_fail
+                  0x009fb0                  _HTTPPrint_status_ok
+                  0x009cbe                  _HTTPPrint_uploadedmd5
+                  0x009c6a                  _HTTPPrint_version
+                  0x009ede                  _HTTPPrint_write_comm
+                  0x0070a2                  _HTTPReadPostName
+                  0x0070ca                  _HTTPReadPostValue
+                  0x005f50                  _HTTPServer
+                  0x006f98                  _HTTPURLDecode
+                  0x00d15a                  _HomeCompleted
+                  0x00d13e                  _HomeFailed
+                  0x00cf44                  _HomingStateMachine
+                  0x01007e                  _ICMPProcess
+                  0x00fbc0                  _IPGetHeader
+                  0x00fc84                  _IPPutHeader
+                  0x00fd1c                  _IPSetRxBuffer
+                  0x00f2b6                  _InitClient_HandControl
+                  0x00effa                  _InitClient_Serial
+                  0x00bec2                  _InitClient_WiFi
+                  0x00d406                  _InitDIN_Input
+                  0x003fa0                  _InitFocusers
+                  0x003fe6                  _InitFocusingRotator
+                  0x00dca8                  _InitPic
+                  0x00e3b0                  _InitSteppers
+                  0x00f568                  _InitTempComp
+                  0x00e01e                  _InterpretCommandString
+                  0x00a958                  _LFSRRand
+                  0x00a918                  _LFSRSeedRand
+                  0x00820a                  _LoadConfigFromNVM
+                  0x007a34                  _MACCalcRxChecksum
+                  0x00769e                  _MACDiscardRx
+                  0x00788e                  _MACFlush
+                  0x007d0a                  _MACGet
+                  0x007d3c                  _MACGetArray
+                  0x0076d2                  _MACGetFreeRxSize
+                  0x00775a                  _MACGetHeader
+                  0x007552                  _MACInit
+                  0x007672                  _MACIsLinked
+                  0x007cf2                  _MACIsMemCopyDone
+                  0x007686                  _MACIsTxReady
+                  0x007b40                  _MACMemCopyAsync
+                  0x00818c                  _MACPowerDown
+                  0x0081ba                  _MACPowerUp
+                  0x007e16                  _MACPut
+                  0x007e4e                  _MACPutArray
+                  0x00783a                  _MACPutHeader
+                  0x007a06                  _MACSetReadPtr
+                  0x0079aa                  _MACSetReadPtrInRx
+                  0x0079d8                  _MACSetWritePtr
+                  0x008f6a                  _MPFSClose
+                  0x009398                  _MPFSFormat
+                  0x008f8c                  _MPFSGet
+                  0x00908e                  _MPFSGetArray
+                  0x009656                  _MPFSGetBytesRem
+                  0x0096ee                  _MPFSGetEndAddr
+                  0x009748                  _MPFSGetFilename
+                  0x0095c4                  _MPFSGetFlags
+                  0x0097d0                  _MPFSGetID
+                  0x00919c                  _MPFSGetLong
+                  0x009576                  _MPFSGetMicrotime
+                  0x0097b0                  _MPFSGetPosition
+                  0x009608                  _MPFSGetSize
+                  0x00969e                  _MPFSGetStartAddr
+                  0x009528                  _MPFSGetTimestamp
+                  0x008d64                  _MPFSInit
+                  0x008d98                  _MPFSOpen
+                  0x008ee6                  _MPFSOpenID
+                  0x009430                  _MPFSPutArray
+                  0x0094d0                  _MPFSPutEnd
+                  0x0091bc                  _MPFSSeek
+                  0x00d3b0                  _MagnetMonitorStateMachine
+                  0x001a54                  _MinReqVersion
+                  0x00d17c                  _MovingStateMachine
+                  0x00ea20                  _NBNSTask
+                  0x00edd4                  _ProcessBufferData
+                  0x00d4b2                  _ProcessDinInData
+                  0x0043b4                  _ProcessFocusingRotatorCmd
+                  0x004300                  _ProcessReceivedCommands
+                  0x008cb4                  _ReadNVM
+                  0x008006                  _ReadPHYReg
+                  0x00ed2e                  _ReceiveEthernetCmds
+                  0x00f0e6                  _ReceiveSerialCmds
+                  0x00f394                  _ReceiveSerialCmds_HC
+                  0x00c08e                  _ReceiveWiFiCmds
+                  0x00cdd4                  _RequestAbsoluteMoveFoc
+                  0x00d286                  _RequestAbsoluteMoveRot
+                  0x00cdc6                  _RequestHaltFoc
+                  0x00d09c                  _RequestHaltRot
+                  0x00cdec                  _RequestHomeStartFoc
+                  0x00d08c                  _RequestHomeStartRot
+                  0x004210                  _ResetLED
+                  0x008c46                  _ResetToDefaults
+                  0x00dff6                  _SaveAppConfig
+                  0x008a3a                  _SaveCurrentPositionFoc
+                  0x008b2c                  _SaveCurrentPositionRot
+                  0x0084a6                  _SaveDeviceConfig
+                  0x008c18                  _SaveMagnetState
+                  0x0088a2                  _SaveTempCompStartPoint
+                  0x00c28a                  _SendStringWiFiPassThru
+                  0x0081da                  _SetCLKOUT
+                  0x00e656                  _SetStepperCurrent
+                  0x00e614                  _SetStepperSpeedPPS
+                  0x00c436                  _SetWiFiData
+                  0x00fa14                  _StackApplications
+                  0x00f7e6                  _StackInit
+                  0x00f814                  _StackTask
+                  0x00d2ae                  _StartHomeMove
+                  0x00ce06                  _StartRelativeMoveFoc
+                  0x00d0ca                  _StartRelativeMoveRot
+                  0x00aabc                  _StringToIPAddress
+                  0x00dc3e                  _SwapARPPacket
+                  0x003da2                  _TCPAdjustFIFOSize
+                  0x00219e                  _TCPClose
+                  0x0023c2                  _TCPDiscard
+                  0x002102                  _TCPDisconnect
+                  0x00260e                  _TCPFindArrayEx
+                  0x002892                  _TCPFindEx
+                  0x0021cc                  _TCPFlush
+                  0x002412                  _TCPGet
+                  0x00247a                  _TCPGetArray
+                  0x0021b0                  _TCPGetRemoteInfo
+                  0x002534                  _TCPGetRxFIFOFree
+                  0x0023a4                  _TCPGetTxFIFOFull
+                  0x001eb0                  _TCPInit
+                  0x0020e6                  _TCPIsConnected
+                  0x0023e0                  _TCPIsGetReady
+                  0x0021e8                  _TCPIsPutReady
+                  0x001f7a                  _TCPOpen
+                  0x0025f6                  _TCPPeek
+                  0x002550                  _TCPPeekArray
+                  0x002d02                  _TCPProcess
+                  0x002232                  _TCPPut
+                  0x0022bc                  _TCPPutArray
+                  0x002388                  _TCPPutString
+                  0x001dbc                  _TCPSocketInitializer
+                  0x0028b0                  _TCPTick
+                  0x0020c2                  _TCPWasReset
+                  0x00ff66                  _TickConvertToMilliseconds
+                  0x00ff0a                  _TickGet
+                  0x00ff16                  _TickGetDiv256
+                  0x00ff3e                  _TickGetDiv64K
+                  0x00fe8e                  _TickInit
+                  0x00b434                  _UDPClose
+                  0x00b63a                  _UDPDiscard
+                  0x00b540                  _UDPFlush
+                  0x00b5be                  _UDPGet
+                  0x00b5f2                  _UDPGetArray
+                  0x00b108                  _UDPInit
+                  0x00b58e                  _UDPIsGetReady
+                  0x00b412                  _UDPIsOpened
+                  0x00b490                  _UDPIsPutReady
+                  0x00b122                  _UDPOpenEx
+                  0x00b654                  _UDPProcess
+                  0x00b4c4                  _UDPPut
+                  0x00b4f6                  _UDPPutArray
+                  0x00b52c                  _UDPPutString
+                  0x00b47e                  _UDPSetRxBuffer
+                  0x00b46c                  _UDPSetTxBuffer
+                  0x00b23e                  _UDPTask
+                  0x00e6e0                  _UnfreezeStepper
+                  0x00813c                  _WritePHYReg
+                  0x00e710                  _XEEBeginRead
+                  0x00e836                  _XEEBeginWrite
+                  0x00e762                  _XEEEndRead
+                  0x00e8a8                  _XEEEndWrite
+                  0x00e6f2                  _XEEInit
+                  0x00e9b4                  _XEEIsBusy
+                  0x00e724                  _XEERead
+                  0x00e76a                  _XEEReadArray
+                  0x00e84a                  _XEEWrite
+                  0x00e886                  _XEEWriteArray
+                  0x00dc6a                  __AddressError
+                  0x000290                  __DefaultInterrupt
+                  0x00d434                  __IC1Interrupt
+                  0x00dc74                  __StackError
+                  0x00ff8a                  __T1Interrupt
+                  0x00e3e6                  __T4Interrupt
+                  0x00e4c0                  __T5Interrupt
+                  0x00f082                  __U1RXInterrupt
+                  0x00f330                  __U2RXInterrupt
+                  0x00032a                  ___addsf3
+                  0x0006f6                  ___divdi3
+                  0x0003e4                  ___divsf3
+                  0x000468                  ___divsi3
+                  0x000548                  ___fixsfsi
+                  0x000512                  ___fixunssfsi
+                  0x0002d2                  ___floatsisf
+                  0x000730                  ___moddi3
+                  0x000590                  ___muldi3
+                  0x0002c6                  ___mulp32eds3
+                  0x0002c6                  ___mulp32peds3
+                  0x0004aa                  ___mulsf3
+                  0x0002c6                  ___mulsi3
+                  0x0004a6                  ___nesf2
+                  0x000328                  ___subsf3
+                  0x0006e0                  ___udivdi3
+                  0x000612                  ___udivmoddi3
+                  0x000486                  ___udivsi3
+                  0x0006ee                  ___umoddi3
+                  0x00058a                  ___umodsi3
+                  0x0008de                  ___umuldi3
+                  0x00ffa2                  __addBI
+                  0x010060                  __copyBI
+                  0x000232                  __data_init
+                  0x000232                  __data_init_standard
+                  0x00085e                  __fPropagateNaN
+                  0x000870                  __fbopExit
+                  0x000878                  __fbopReturnNaN
+                  0x00087e                  __fcompare
+                  0x000802                  __fpack
+                  0x0008b4                  __funpack
+                  0x00084e                  __funpack2
+                  0x01003e                  __masBI
+                  0x00ffee                  __msbBI
+                  0x00fffe                  __mulBI
+                  0x000222                  __psv_init
+                  0x000200                  __resetPRI
+                  0x010034                  __sqrBI
+                  0x00ffc2                  __subBI
+                  0x00ffe2                  __zeroBI
+                  0x00cd9e                  _abortHome
+                  0x000b6a                  _atol
+                  0x00ae6e                  _btohexa_high
+                  0x00ae96                  _btohexa_low
+                  0x004f0a                  _conditionsOkToStartMove
+                  0x00cd82                  _finalizeMove
+                  0x00581a                  _getSignedDecString
+                  0x005794                  _getTempString
+                  0x005a18                  _getUnsignedDecString
+                  0x005bd0                  _getUnsignedIntFromString
+                  0x00adf8                  _hexatob
+                  0x0002a4                  _isalpha
+                  0x000294                  _isspace
+                  0x00dc7e                  _main
+                  0x000922                  _memcmp
+                  0x000bce                  _memcpy
+                  0x000b5c                  _memset
+                  0x004fc6                  _prepareConfigString
+                  0x0051c6                  _prepareConfigStringRot
+                  0x005772                  _prepareDiagString
+                  0x005570                  _prepareHubInfoString
+                  0x0052e8                  _prepareStatusString
+                  0x005488                  _prepareStatusStringRot
+                  0x00c2d6                  _pushByteToWiFiBuffer
+                  0x008472                  _readDeviceSettingsFromNVM
+                  0x008c9a                  _readSR
+                  0x00887e                  _saveDeviceSettingsToNVM
+                  0x00f042                  _sendByteUART
+                  0x00f2f0                  _sendByteUART_HC
+                  0x004f78                  _sendOutput
+                  0x00efa4                  _sendStringEthernet
+                  0x00f058                  _sendStringUART
+                  0x00f306                  _sendStringUART_HC
+                  0x008c72                  _setupSPI
+                  0x000982                  _strcat
+                  0x000956                  _strcmp
+                  0x000966                  _strcpy
+                  0x00aebc                  _stricmppgm2ram
+                  0x000976                  _strlen
+                  0x00099a                  _strncat
+                  0x00b0c2                  _strnchr
+                  0x000bdc                  _strncmp
+                  0x000ad0                  _strtol
+                  0x0009be                  _strtoul
+                  0x00b040                  _strupr
+                  0x00af6e                  _swapl
+                  0x00af54                  _swaps
+                  0x0002b8                  _toupper
+                  0x00ad7a                  _uitoa
+                  0x00c30c                  _writeByteSpi
+                  0x008c82                  _writeEEP_SPI
+                  0x008d02                  _writeEnable
+                  0x008cdc                  _writeNVM
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+data             0x000800           0x002000           a !xr
+reset            0x000000           0x000004  
+ivt              0x000004           0x0000fc  
+aivt             0x000104           0x0000fc  
+program          0x000200           0x0155fe           xr
+FBS              0xf80000           0x000002  
+FSS              0xf80002           0x000002  
+FGS              0xf80004           0x000002  
+FOSCSEL          0xf80006           0x000002  
+FOSC             0xf80008           0x000002  
+FWDT             0xf8000a           0x000002  
+FPOR             0xf8000c           0x000002  
+FICD             0xf8000e           0x000002  
+FUID0            0xf80010           0x000002  
+FUID1            0xf80012           0x000002  
+FUID2            0xf80014           0x000002  
+FUID3            0xf80016           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD CustomHTTPApp.o
+LOAD DIN_Input.o
+LOAD FocuserMotion.o
+LOAD FocusingRotator.o
+LOAD Main.o
+LOAD NVM.o
+LOAD Rotator.o
+LOAD RotatorMotion.o
+LOAD Stepper.o
+LOAD TempComp.o
+LOAD Announce.o
+LOAD ARCFOUR.o
+LOAD ARP.o
+LOAD AutoIP.o
+LOAD BerkeleyAPI.o
+LOAD BigInt.o
+LOAD BigInt_helper.o
+LOAD Delay.o
+LOAD DHCP.o
+LOAD DHCPs.o
+LOAD DNS.o
+LOAD DNSs.o
+LOAD DynDNS.o
+LOAD ENC28J60.o
+LOAD FileSystem.o
+LOAD FTP.o
+LOAD Hashes.o
+LOAD Helpers.o
+LOAD HTTP2.o
+LOAD ICMP.o
+LOAD IP.o
+LOAD LCDBlocking.o
+LOAD MPFS2.o
+LOAD NBNS.o
+LOAD Random.o
+LOAD Reboot.o
+LOAD RSA.o
+LOAD SMTP.o
+LOAD SNMP.o
+LOAD SNMPv3.o
+LOAD SNMPv3USM.o
+LOAD SNTP.o
+LOAD SPIEEPROM.o
+LOAD SPIFlash.o
+LOAD SPIRAM.o
+LOAD SSL.o
+LOAD StackTsk.o
+LOAD TCP.o
+LOAD TCPPerformanceTest.o
+LOAD Telnet.o
+LOAD TFTPc.o
+LOAD Tick.o
+LOAD UART.o
+LOAD UART2TCPBridge.o
+LOAD UDP.o
+LOAD UDPPerformanceTest.o
+LOAD ZeroconfHelper.o
+LOAD ZeroconfLinkLocal.o
+LOAD ZeroconfMulticastDNS.o
+LOAD CommandProcessing.o
+LOAD Client_Ethernet.o
+LOAD Client_HandControl.o
+LOAD Client_Serial.o
+LOAD Client_WiFi.o
+LOAD c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib/PIC24H\libp24HJ128GP204-coff.a
+                    0xf80000                  __FBS = 0xf80000
+                    0xf80002                  __FSS = 0xf80002
+                    0xf80004                  __FGS = 0xf80004
+                    0xf80006                  __FOSCSEL = 0xf80006
+                    0xf80008                  __FOSC = 0xf80008
+                    0xf8000a                  __FWDT = 0xf8000a
+                    0xf8000c                  __FPOR = 0xf8000c
+                    0xf8000e                  __FICD = 0xf8000e
+                    0xf80010                  __FUID0 = 0xf80010
+                    0xf80012                  __FUID1 = 0xf80012
+                    0xf80014                  __FUID2 = 0xf80014
+                    0xf80016                  __FUID3 = 0xf80016
+                    0x0004                  __IVT_BASE = 0x4
+                    0x0104                  __AIVT_BASE = 0x104
+                    0x0800                  __DATA_BASE = 0x800
+                    0x2000                  __DATA_LENGTH = 0x2000
+                    0x2000                  __DMA_BASE = 0x2000
+                    0x27ff                  __DMA_END = 0x27ff
+                    0x0200                  __CODE_BASE = 0x200
+                    0x15600                  __CODE_LENGTH = 0x15600
+
+.reset            0x000000          0x4
+                  0x000000          0x2 SHORT 0x200 ABSOLUTE (__reset)
+                  0x000001          0x2 SHORT 0x4
+                  0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
+                  0x000003          0x2 SHORT 0x0
+
+.text             0x000200        0x9fe
+ *(.init)
+ .init            0x000200         0x32 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+                  0x000200                  _resetPRI
+                  0x000200                  _reset
+                  0x000222                  _psv_init
+ .init            0x000232         0x5e c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+                  0x000232                  _data_init_standard
+                  0x000232                  _data_init
+ *(.user_init)
+ *(.handle)
+ *(.isr*)
+ .isr             0x000290          0x4 default_isr
+                  0x000290                  _DefaultInterrupt
+ *(.libc)
+ .libc            0x000294         0x10 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(isspace.XXo)
+                  0x000294                  isspace
+ .libc            0x0002a4         0x14 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(isalpha.XXo)
+                  0x0002a4                  isalpha
+ .libc            0x0002b8          0xe c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(toupper.XXo)
+                  0x0002b8                  toupper
+ .libc            0x0002c6          0xc c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsi3.o)
+                  0x0002c6                  __mulp32peds3
+                  0x0002c6                  __mulsi3
+                  0x0002c6                  __mulp32eds3
+ *(.libm)
+ .libm            0x0002d2         0x56 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(floatsisf.o)
+                  0x0002d2                  __floatsisf
+ .libm            0x000328         0xbc c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(addsf3.o)
+                  0x000328                  __subsf3
+                  0x00032a                  __addsf3
+ .libm            0x0003e4         0x84 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsf3.o)
+                  0x0003e4                  __divsf3
+ .libm            0x000468         0x1e c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsi3.o)
+                  0x000468                  __divsi3
+ .libm            0x000486         0x20 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(udivsi3.o)
+                  0x000486                  __udivsi3
+ .libm            0x0004a6          0x4 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fne.o)
+                  0x0004a6                  __nesf2
+ .libm            0x0004aa         0x68 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsf3.o)
+                  0x0004aa                  __mulsf3
+ .libm            0x000512         0x36 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixunssfsi.o)
+                  0x000512                  __fixunssfsi
+ .libm            0x000548         0x42 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixsfsi.o)
+                  0x000548                  __fixsfsi
+ .libm            0x00058a          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umodsi3.o)
+                  0x00058a                  __umodsi3
+ .libm            0x000590         0x5c c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(muldi3.o)
+                  0x000590                  __muldi3
+ .libm            0x0005ec        0x216 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divmoddi3.o)
+                  0x000612                  __udivmoddi3
+                  0x0006e0                  __udivdi3
+                  0x0006ee                  __umoddi3
+                  0x0006f6                  __divdi3
+                  0x000730                  __moddi3
+ .libm            0x000802         0x4c c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fpack.o)
+                  0x000802                  _fpack
+ .libm            0x00084e         0x10 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack2.o)
+                  0x00084e                  _funpack2
+ .libm            0x00085e         0x20 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(futil.o)
+                  0x00085e                  _fPropagateNaN
+                  0x000870                  _fbopExit
+                  0x000878                  _fbopReturnNaN
+ .libm            0x00087e         0x36 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fcompare.o)
+                  0x00087e                  _fcompare
+ .libm            0x0008b4         0x2a c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack.o)
+                  0x0008b4                  _funpack
+ .libm            0x0008de         0x44 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umuldi3.o)
+                  0x0008de                  __umuldi3
+ *(.libdsp)
+ *(.lib*)
+ .libc.memcmp     0x000922         0x34 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcmp.XXo)
+                  0x000922                  memcmp
+ .libc.strcmp     0x000956         0x10 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcmp.XXo)
+                  0x000956                  strcmp
+ .libc.strcpy     0x000966         0x10 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcpy.XXo)
+                  0x000966                  strcpy
+ .libc.strlen     0x000976          0xc c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strlen.XXo)
+                  0x000976                  strlen
+ .libc.strcat     0x000982         0x18 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcat.XXo)
+                  0x000982                  strcat
+ .libc.strncat    0x00099a         0x24 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncat.XXo)
+                  0x00099a                  strncat
+ .libc.strtoul    0x0009be        0x112 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo)
+                  0x0009be                  strtoul
+ .libc.strtol     0x000ad0         0x8c c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo)
+                  0x000ad0                  strtol
+ .libc.memset     0x000b5c          0xe c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memset.XXo)
+                  0x000b5c                  memset
+ .libc.atol       0x000b6a         0x64 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(atol.XXo)
+                  0x000b6a                  atol
+ .libc.memcpy     0x000bce          0xe c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcpy.XXo)
+                  0x000bce                  memcpy
+ .libc.strncmp    0x000bdc         0x22 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncmp.XXo)
+                  0x000bdc                  strncmp
+
+usercode
+ *(usercode)
+
+__FBS
+ *(__FBS.sec)
+
+__FSS
+ *(__FSS.sec)
+
+__FGS
+ *(__FGS.sec)
+
+__FOSCSEL         0xf80006          0x2
+ *(__FOSCSEL.sec)
+ __FOSCSEL.sec    0xf80006          0x2 Main.o
+
+__FOSC            0xf80008          0x2
+ *(__FOSC.sec)
+ __FOSC.sec       0xf80008          0x2 Main.o
+
+__FWDT            0xf8000a          0x2
+ *(__FWDT.sec)
+ __FWDT.sec       0xf8000a          0x2 Main.o
+
+__FPOR
+ *(__FPOR.sec)
+
+__FICD
+ *(__FICD.sec)
+
+__FUID0
+ *(__FUID0.sec)
+
+__FUID1
+ *(__FUID1.sec)
+
+__FUID2
+ *(__FUID2.sec)
+
+__FUID3
+ *(__FUID3.sec)
+
+.comment
+ *(.comment)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.ivt              0x000004         0xfc
+                  0x000004          0x4 LONG 0x290 DEFINED (__ReservedTrap0)?ABSOLUTE (__ReservedTrap0):ABSOLUTE (__DefaultInterrupt)
+                  0x000006          0x4 LONG 0x290 DEFINED (__OscillatorFail)?ABSOLUTE (__OscillatorFail):ABSOLUTE (__DefaultInterrupt)
+                  0x000008          0x4 LONG 0xdc6a DEFINED (__AddressError)?ABSOLUTE (__AddressError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000a          0x4 LONG 0xdc74 DEFINED (__StackError)?ABSOLUTE (__StackError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000c          0x4 LONG 0x290 DEFINED (__MathError)?ABSOLUTE (__MathError):ABSOLUTE (__DefaultInterrupt)
+                  0x00000e          0x4 LONG 0x290 DEFINED (__DMACError)?ABSOLUTE (__DMACError):ABSOLUTE (__DefaultInterrupt)
+                  0x000010          0x4 LONG 0x290 DEFINED (__ReservedTrap6)?ABSOLUTE (__ReservedTrap6):ABSOLUTE (__DefaultInterrupt)
+                  0x000012          0x4 LONG 0x290 DEFINED (__ReservedTrap7)?ABSOLUTE (__ReservedTrap7):ABSOLUTE (__DefaultInterrupt)
+                  0x000014          0x4 LONG 0x290 DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000016          0x4 LONG 0xd434 DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000018          0x4 LONG 0x290 DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001a          0x4 LONG 0xff8a DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001c          0x4 LONG 0x290 DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00001e          0x4 LONG 0x290 DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000020          0x4 LONG 0x290 DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000022          0x4 LONG 0x290 DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000024          0x4 LONG 0x290 DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000026          0x4 LONG 0x290 DEFINED (__SPI1ErrInterrupt)?ABSOLUTE (__SPI1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000028          0x4 LONG 0x290 DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002a          0x4 LONG 0xf082 DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002c          0x4 LONG 0x290 DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00002e          0x4 LONG 0x290 DEFINED (__ADC1Interrupt)?ABSOLUTE (__ADC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000030          0x4 LONG 0x290 DEFINED (__DMA1Interrupt)?ABSOLUTE (__DMA1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000032          0x4 LONG 0x290 DEFINED (__Interrupt15)?ABSOLUTE (__Interrupt15):ABSOLUTE (__DefaultInterrupt)
+                  0x000034          0x4 LONG 0x290 DEFINED (__SI2C1Interrupt)?ABSOLUTE (__SI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000036          0x4 LONG 0x290 DEFINED (__MI2C1Interrupt)?ABSOLUTE (__MI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000038          0x4 LONG 0x290 DEFINED (__CMPInterrupt)?ABSOLUTE (__CMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003a          0x4 LONG 0x290 DEFINED (__CNInterrupt)?ABSOLUTE (__CNInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003c          0x4 LONG 0x290 DEFINED (__INT1Interrupt)?ABSOLUTE (__INT1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00003e          0x4 LONG 0x290 DEFINED (__Interrupt21)?ABSOLUTE (__Interrupt21):ABSOLUTE (__DefaultInterrupt)
+                  0x000040          0x4 LONG 0x290 DEFINED (__IC7Interrupt)?ABSOLUTE (__IC7Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000042          0x4 LONG 0x290 DEFINED (__IC8Interrupt)?ABSOLUTE (__IC8Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000044          0x4 LONG 0x290 DEFINED (__DMA2Interrupt)?ABSOLUTE (__DMA2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000046          0x4 LONG 0x290 DEFINED (__OC3Interrupt)?ABSOLUTE (__OC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000048          0x4 LONG 0x290 DEFINED (__OC4Interrupt)?ABSOLUTE (__OC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004a          0x4 LONG 0xe3e6 DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004c          0x4 LONG 0xe4c0 DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00004e          0x4 LONG 0x290 DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000050          0x4 LONG 0xf330 DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000052          0x4 LONG 0x290 DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000054          0x4 LONG 0x290 DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000056          0x4 LONG 0x290 DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000058          0x4 LONG 0x290 DEFINED (__Interrupt34)?ABSOLUTE (__Interrupt34):ABSOLUTE (__DefaultInterrupt)
+                  0x00005a          0x4 LONG 0x290 DEFINED (__Interrupt35)?ABSOLUTE (__Interrupt35):ABSOLUTE (__DefaultInterrupt)
+                  0x00005c          0x4 LONG 0x290 DEFINED (__DMA3Interrupt)?ABSOLUTE (__DMA3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00005e          0x4 LONG 0x290 DEFINED (__Interrupt37)?ABSOLUTE (__Interrupt37):ABSOLUTE (__DefaultInterrupt)
+                  0x000060          0x4 LONG 0x290 DEFINED (__Interrupt38)?ABSOLUTE (__Interrupt38):ABSOLUTE (__DefaultInterrupt)
+                  0x000062          0x4 LONG 0x290 DEFINED (__Interrupt39)?ABSOLUTE (__Interrupt39):ABSOLUTE (__DefaultInterrupt)
+                  0x000064          0x4 LONG 0x290 DEFINED (__Interrupt40)?ABSOLUTE (__Interrupt40):ABSOLUTE (__DefaultInterrupt)
+                  0x000066          0x4 LONG 0x290 DEFINED (__Interrupt41)?ABSOLUTE (__Interrupt41):ABSOLUTE (__DefaultInterrupt)
+                  0x000068          0x4 LONG 0x290 DEFINED (__Interrupt42)?ABSOLUTE (__Interrupt42):ABSOLUTE (__DefaultInterrupt)
+                  0x00006a          0x4 LONG 0x290 DEFINED (__Interrupt43)?ABSOLUTE (__Interrupt43):ABSOLUTE (__DefaultInterrupt)
+                  0x00006c          0x4 LONG 0x290 DEFINED (__Interrupt44)?ABSOLUTE (__Interrupt44):ABSOLUTE (__DefaultInterrupt)
+                  0x00006e          0x4 LONG 0x290 DEFINED (__PMPInterrupt)?ABSOLUTE (__PMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000070          0x4 LONG 0x290 DEFINED (__DMA4Interrupt)?ABSOLUTE (__DMA4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000072          0x4 LONG 0x290 DEFINED (__Interrupt47)?ABSOLUTE (__Interrupt47):ABSOLUTE (__DefaultInterrupt)
+                  0x000074          0x4 LONG 0x290 DEFINED (__Interrupt48)?ABSOLUTE (__Interrupt48):ABSOLUTE (__DefaultInterrupt)
+                  0x000076          0x4 LONG 0x290 DEFINED (__Interrupt49)?ABSOLUTE (__Interrupt49):ABSOLUTE (__DefaultInterrupt)
+                  0x000078          0x4 LONG 0x290 DEFINED (__Interrupt50)?ABSOLUTE (__Interrupt50):ABSOLUTE (__DefaultInterrupt)
+                  0x00007a          0x4 LONG 0x290 DEFINED (__Interrupt51)?ABSOLUTE (__Interrupt51):ABSOLUTE (__DefaultInterrupt)
+                  0x00007c          0x4 LONG 0x290 DEFINED (__Interrupt52)?ABSOLUTE (__Interrupt52):ABSOLUTE (__DefaultInterrupt)
+                  0x00007e          0x4 LONG 0x290 DEFINED (__Interrupt53)?ABSOLUTE (__Interrupt53):ABSOLUTE (__DefaultInterrupt)
+                  0x000080          0x4 LONG 0x290 DEFINED (__Interrupt54)?ABSOLUTE (__Interrupt54):ABSOLUTE (__DefaultInterrupt)
+                  0x000082          0x4 LONG 0x290 DEFINED (__Interrupt55)?ABSOLUTE (__Interrupt55):ABSOLUTE (__DefaultInterrupt)
+                  0x000084          0x4 LONG 0x290 DEFINED (__Interrupt56)?ABSOLUTE (__Interrupt56):ABSOLUTE (__DefaultInterrupt)
+                  0x000086          0x4 LONG 0x290 DEFINED (__Interrupt57)?ABSOLUTE (__Interrupt57):ABSOLUTE (__DefaultInterrupt)
+                  0x000088          0x4 LONG 0x290 DEFINED (__Interrupt58)?ABSOLUTE (__Interrupt58):ABSOLUTE (__DefaultInterrupt)
+                  0x00008a          0x4 LONG 0x290 DEFINED (__Interrupt59)?ABSOLUTE (__Interrupt59):ABSOLUTE (__DefaultInterrupt)
+                  0x00008c          0x4 LONG 0x290 DEFINED (__Interrupt60)?ABSOLUTE (__Interrupt60):ABSOLUTE (__DefaultInterrupt)
+                  0x00008e          0x4 LONG 0x290 DEFINED (__DMA5Interrupt)?ABSOLUTE (__DMA5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000090          0x4 LONG 0x290 DEFINED (__RTCCInterrupt)?ABSOLUTE (__RTCCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000092          0x4 LONG 0x290 DEFINED (__Interrupt63)?ABSOLUTE (__Interrupt63):ABSOLUTE (__DefaultInterrupt)
+                  0x000094          0x4 LONG 0x290 DEFINED (__Interrupt64)?ABSOLUTE (__Interrupt64):ABSOLUTE (__DefaultInterrupt)
+                  0x000096          0x4 LONG 0x290 DEFINED (__U1ErrInterrupt)?ABSOLUTE (__U1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000098          0x4 LONG 0x290 DEFINED (__U2ErrInterrupt)?ABSOLUTE (__U2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009a          0x4 LONG 0x290 DEFINED (__CRCInterrupt)?ABSOLUTE (__CRCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009c          0x4 LONG 0x290 DEFINED (__DMA6Interrupt)?ABSOLUTE (__DMA6Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00009e          0x4 LONG 0x290 DEFINED (__DMA7Interrupt)?ABSOLUTE (__DMA7Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a0          0x4 LONG 0x290 DEFINED (__Interrupt70)?ABSOLUTE (__Interrupt70):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a2          0x4 LONG 0x290 DEFINED (__Interrupt71)?ABSOLUTE (__Interrupt71):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a4          0x4 LONG 0x290 DEFINED (__Interrupt72)?ABSOLUTE (__Interrupt72):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a6          0x4 LONG 0x290 DEFINED (__Interrupt73)?ABSOLUTE (__Interrupt73):ABSOLUTE (__DefaultInterrupt)
+                  0x0000a8          0x4 LONG 0x290 DEFINED (__Interrupt74)?ABSOLUTE (__Interrupt74):ABSOLUTE (__DefaultInterrupt)
+                  0x0000aa          0x4 LONG 0x290 DEFINED (__Interrupt75)?ABSOLUTE (__Interrupt75):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ac          0x4 LONG 0x290 DEFINED (__Interrupt76)?ABSOLUTE (__Interrupt76):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ae          0x4 LONG 0x290 DEFINED (__Interrupt77)?ABSOLUTE (__Interrupt77):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b0          0x4 LONG 0x290 DEFINED (__Interrupt78)?ABSOLUTE (__Interrupt78):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b2          0x4 LONG 0x290 DEFINED (__Interrupt79)?ABSOLUTE (__Interrupt79):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b4          0x4 LONG 0x290 DEFINED (__Interrupt80)?ABSOLUTE (__Interrupt80):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b6          0x4 LONG 0x290 DEFINED (__Interrupt81)?ABSOLUTE (__Interrupt81):ABSOLUTE (__DefaultInterrupt)
+                  0x0000b8          0x4 LONG 0x290 DEFINED (__Interrupt82)?ABSOLUTE (__Interrupt82):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ba          0x4 LONG 0x290 DEFINED (__Interrupt83)?ABSOLUTE (__Interrupt83):ABSOLUTE (__DefaultInterrupt)
+                  0x0000bc          0x4 LONG 0x290 DEFINED (__Interrupt84)?ABSOLUTE (__Interrupt84):ABSOLUTE (__DefaultInterrupt)
+                  0x0000be          0x4 LONG 0x290 DEFINED (__Interrupt85)?ABSOLUTE (__Interrupt85):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c0          0x4 LONG 0x290 DEFINED (__Interrupt86)?ABSOLUTE (__Interrupt86):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c2          0x4 LONG 0x290 DEFINED (__Interrupt87)?ABSOLUTE (__Interrupt87):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c4          0x4 LONG 0x290 DEFINED (__Interrupt88)?ABSOLUTE (__Interrupt88):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c6          0x4 LONG 0x290 DEFINED (__Interrupt89)?ABSOLUTE (__Interrupt89):ABSOLUTE (__DefaultInterrupt)
+                  0x0000c8          0x4 LONG 0x290 DEFINED (__Interrupt90)?ABSOLUTE (__Interrupt90):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ca          0x4 LONG 0x290 DEFINED (__Interrupt91)?ABSOLUTE (__Interrupt91):ABSOLUTE (__DefaultInterrupt)
+                  0x0000cc          0x4 LONG 0x290 DEFINED (__Interrupt92)?ABSOLUTE (__Interrupt92):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ce          0x4 LONG 0x290 DEFINED (__Interrupt93)?ABSOLUTE (__Interrupt93):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d0          0x4 LONG 0x290 DEFINED (__Interrupt94)?ABSOLUTE (__Interrupt94):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d2          0x4 LONG 0x290 DEFINED (__Interrupt95)?ABSOLUTE (__Interrupt95):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d4          0x4 LONG 0x290 DEFINED (__Interrupt96)?ABSOLUTE (__Interrupt96):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d6          0x4 LONG 0x290 DEFINED (__Interrupt97)?ABSOLUTE (__Interrupt97):ABSOLUTE (__DefaultInterrupt)
+                  0x0000d8          0x4 LONG 0x290 DEFINED (__Interrupt98)?ABSOLUTE (__Interrupt98):ABSOLUTE (__DefaultInterrupt)
+                  0x0000da          0x4 LONG 0x290 DEFINED (__Interrupt99)?ABSOLUTE (__Interrupt99):ABSOLUTE (__DefaultInterrupt)
+                  0x0000dc          0x4 LONG 0x290 DEFINED (__Interrupt100)?ABSOLUTE (__Interrupt100):ABSOLUTE (__DefaultInterrupt)
+                  0x0000de          0x4 LONG 0x290 DEFINED (__Interrupt101)?ABSOLUTE (__Interrupt101):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e0          0x4 LONG 0x290 DEFINED (__Interrupt102)?ABSOLUTE (__Interrupt102):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e2          0x4 LONG 0x290 DEFINED (__Interrupt103)?ABSOLUTE (__Interrupt103):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e4          0x4 LONG 0x290 DEFINED (__Interrupt104)?ABSOLUTE (__Interrupt104):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e6          0x4 LONG 0x290 DEFINED (__Interrupt105)?ABSOLUTE (__Interrupt105):ABSOLUTE (__DefaultInterrupt)
+                  0x0000e8          0x4 LONG 0x290 DEFINED (__Interrupt106)?ABSOLUTE (__Interrupt106):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ea          0x4 LONG 0x290 DEFINED (__Interrupt107)?ABSOLUTE (__Interrupt107):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ec          0x4 LONG 0x290 DEFINED (__Interrupt108)?ABSOLUTE (__Interrupt108):ABSOLUTE (__DefaultInterrupt)
+                  0x0000ee          0x4 LONG 0x290 DEFINED (__Interrupt109)?ABSOLUTE (__Interrupt109):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f0          0x4 LONG 0x290 DEFINED (__Interrupt110)?ABSOLUTE (__Interrupt110):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f2          0x4 LONG 0x290 DEFINED (__Interrupt111)?ABSOLUTE (__Interrupt111):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f4          0x4 LONG 0x290 DEFINED (__Interrupt112)?ABSOLUTE (__Interrupt112):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f6          0x4 LONG 0x290 DEFINED (__Interrupt113)?ABSOLUTE (__Interrupt113):ABSOLUTE (__DefaultInterrupt)
+                  0x0000f8          0x4 LONG 0x290 DEFINED (__Interrupt114)?ABSOLUTE (__Interrupt114):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fa          0x4 LONG 0x290 DEFINED (__Interrupt115)?ABSOLUTE (__Interrupt115):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fc          0x4 LONG 0x290 DEFINED (__Interrupt116)?ABSOLUTE (__Interrupt116):ABSOLUTE (__DefaultInterrupt)
+                  0x0000fe          0x4 LONG 0x290 DEFINED (__Interrupt117)?ABSOLUTE (__Interrupt117):ABSOLUTE (__DefaultInterrupt)
+
+.aivt             0x000104         0xfc
+                  0x000104          0x4 LONG 0x290 DEFINED (__AltReservedTrap0)?ABSOLUTE (__AltReservedTrap0):DEFINED (__ReservedTrap0)?ABSOLUTE (__ReservedTrap0):ABSOLUTE (__DefaultInterrupt)
+                  0x000106          0x4 LONG 0x290 DEFINED (__AltOscillatorFail)?ABSOLUTE (__AltOscillatorFail):DEFINED (__OscillatorFail)?ABSOLUTE (__OscillatorFail):ABSOLUTE (__DefaultInterrupt)
+                  0x000108          0x4 LONG 0xdc6a DEFINED (__AltAddressError)?ABSOLUTE (__AltAddressError):DEFINED (__AddressError)?ABSOLUTE (__AddressError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010a          0x4 LONG 0xdc74 DEFINED (__AltStackError)?ABSOLUTE (__AltStackError):DEFINED (__StackError)?ABSOLUTE (__StackError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010c          0x4 LONG 0x290 DEFINED (__AltMathError)?ABSOLUTE (__AltMathError):DEFINED (__MathError)?ABSOLUTE (__MathError):ABSOLUTE (__DefaultInterrupt)
+                  0x00010e          0x4 LONG 0x290 DEFINED (__AltDMACError)?ABSOLUTE (__AltDMACError):DEFINED (__DMACError)?ABSOLUTE (__DMACError):ABSOLUTE (__DefaultInterrupt)
+                  0x000110          0x4 LONG 0x290 DEFINED (__AltReservedTrap6)?ABSOLUTE (__AltReservedTrap6):DEFINED (__ReservedTrap6)?ABSOLUTE (__ReservedTrap6):ABSOLUTE (__DefaultInterrupt)
+                  0x000112          0x4 LONG 0x290 DEFINED (__AltReservedTrap7)?ABSOLUTE (__AltReservedTrap7):DEFINED (__ReservedTrap7)?ABSOLUTE (__ReservedTrap7):ABSOLUTE (__DefaultInterrupt)
+                  0x000114          0x4 LONG 0x290 DEFINED (__AltINT0Interrupt)?ABSOLUTE (__AltINT0Interrupt):DEFINED (__INT0Interrupt)?ABSOLUTE (__INT0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000116          0x4 LONG 0xd434 DEFINED (__AltIC1Interrupt)?ABSOLUTE (__AltIC1Interrupt):DEFINED (__IC1Interrupt)?ABSOLUTE (__IC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000118          0x4 LONG 0x290 DEFINED (__AltOC1Interrupt)?ABSOLUTE (__AltOC1Interrupt):DEFINED (__OC1Interrupt)?ABSOLUTE (__OC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011a          0x4 LONG 0xff8a DEFINED (__AltT1Interrupt)?ABSOLUTE (__AltT1Interrupt):DEFINED (__T1Interrupt)?ABSOLUTE (__T1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011c          0x4 LONG 0x290 DEFINED (__AltDMA0Interrupt)?ABSOLUTE (__AltDMA0Interrupt):DEFINED (__DMA0Interrupt)?ABSOLUTE (__DMA0Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00011e          0x4 LONG 0x290 DEFINED (__AltIC2Interrupt)?ABSOLUTE (__AltIC2Interrupt):DEFINED (__IC2Interrupt)?ABSOLUTE (__IC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000120          0x4 LONG 0x290 DEFINED (__AltOC2Interrupt)?ABSOLUTE (__AltOC2Interrupt):DEFINED (__OC2Interrupt)?ABSOLUTE (__OC2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000122          0x4 LONG 0x290 DEFINED (__AltT2Interrupt)?ABSOLUTE (__AltT2Interrupt):DEFINED (__T2Interrupt)?ABSOLUTE (__T2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000124          0x4 LONG 0x290 DEFINED (__AltT3Interrupt)?ABSOLUTE (__AltT3Interrupt):DEFINED (__T3Interrupt)?ABSOLUTE (__T3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000126          0x4 LONG 0x290 DEFINED (__AltSPI1ErrInterrupt)?ABSOLUTE (__AltSPI1ErrInterrupt):DEFINED (__SPI1ErrInterrupt)?ABSOLUTE (__SPI1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000128          0x4 LONG 0x290 DEFINED (__AltSPI1Interrupt)?ABSOLUTE (__AltSPI1Interrupt):DEFINED (__SPI1Interrupt)?ABSOLUTE (__SPI1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012a          0x4 LONG 0xf082 DEFINED (__AltU1RXInterrupt)?ABSOLUTE (__AltU1RXInterrupt):DEFINED (__U1RXInterrupt)?ABSOLUTE (__U1RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012c          0x4 LONG 0x290 DEFINED (__AltU1TXInterrupt)?ABSOLUTE (__AltU1TXInterrupt):DEFINED (__U1TXInterrupt)?ABSOLUTE (__U1TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00012e          0x4 LONG 0x290 DEFINED (__AltADC1Interrupt)?ABSOLUTE (__AltADC1Interrupt):DEFINED (__ADC1Interrupt)?ABSOLUTE (__ADC1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000130          0x4 LONG 0x290 DEFINED (__AltDMA1Interrupt)?ABSOLUTE (__AltDMA1Interrupt):DEFINED (__DMA1Interrupt)?ABSOLUTE (__DMA1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000132          0x4 LONG 0x290 DEFINED (__AltInterrupt15)?ABSOLUTE (__AltInterrupt15):DEFINED (__Interrupt15)?ABSOLUTE (__Interrupt15):ABSOLUTE (__DefaultInterrupt)
+                  0x000134          0x4 LONG 0x290 DEFINED (__AltSI2C1Interrupt)?ABSOLUTE (__AltSI2C1Interrupt):DEFINED (__SI2C1Interrupt)?ABSOLUTE (__SI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000136          0x4 LONG 0x290 DEFINED (__AltMI2C1Interrupt)?ABSOLUTE (__AltMI2C1Interrupt):DEFINED (__MI2C1Interrupt)?ABSOLUTE (__MI2C1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000138          0x4 LONG 0x290 DEFINED (__AltCMPInterrupt)?ABSOLUTE (__AltCMPInterrupt):DEFINED (__CMPInterrupt)?ABSOLUTE (__CMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013a          0x4 LONG 0x290 DEFINED (__AltCNInterrupt)?ABSOLUTE (__AltCNInterrupt):DEFINED (__CNInterrupt)?ABSOLUTE (__CNInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013c          0x4 LONG 0x290 DEFINED (__AltINT1Interrupt)?ABSOLUTE (__AltINT1Interrupt):DEFINED (__INT1Interrupt)?ABSOLUTE (__INT1Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00013e          0x4 LONG 0x290 DEFINED (__AltInterrupt21)?ABSOLUTE (__AltInterrupt21):DEFINED (__Interrupt21)?ABSOLUTE (__Interrupt21):ABSOLUTE (__DefaultInterrupt)
+                  0x000140          0x4 LONG 0x290 DEFINED (__AltIC7Interrupt)?ABSOLUTE (__AltIC7Interrupt):DEFINED (__IC7Interrupt)?ABSOLUTE (__IC7Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000142          0x4 LONG 0x290 DEFINED (__AltIC8Interrupt)?ABSOLUTE (__AltIC8Interrupt):DEFINED (__IC8Interrupt)?ABSOLUTE (__IC8Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000144          0x4 LONG 0x290 DEFINED (__AltDMA2Interrupt)?ABSOLUTE (__AltDMA2Interrupt):DEFINED (__DMA2Interrupt)?ABSOLUTE (__DMA2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000146          0x4 LONG 0x290 DEFINED (__AltOC3Interrupt)?ABSOLUTE (__AltOC3Interrupt):DEFINED (__OC3Interrupt)?ABSOLUTE (__OC3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000148          0x4 LONG 0x290 DEFINED (__AltOC4Interrupt)?ABSOLUTE (__AltOC4Interrupt):DEFINED (__OC4Interrupt)?ABSOLUTE (__OC4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014a          0x4 LONG 0xe3e6 DEFINED (__AltT4Interrupt)?ABSOLUTE (__AltT4Interrupt):DEFINED (__T4Interrupt)?ABSOLUTE (__T4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014c          0x4 LONG 0xe4c0 DEFINED (__AltT5Interrupt)?ABSOLUTE (__AltT5Interrupt):DEFINED (__T5Interrupt)?ABSOLUTE (__T5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00014e          0x4 LONG 0x290 DEFINED (__AltINT2Interrupt)?ABSOLUTE (__AltINT2Interrupt):DEFINED (__INT2Interrupt)?ABSOLUTE (__INT2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000150          0x4 LONG 0xf330 DEFINED (__AltU2RXInterrupt)?ABSOLUTE (__AltU2RXInterrupt):DEFINED (__U2RXInterrupt)?ABSOLUTE (__U2RXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000152          0x4 LONG 0x290 DEFINED (__AltU2TXInterrupt)?ABSOLUTE (__AltU2TXInterrupt):DEFINED (__U2TXInterrupt)?ABSOLUTE (__U2TXInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000154          0x4 LONG 0x290 DEFINED (__AltSPI2ErrInterrupt)?ABSOLUTE (__AltSPI2ErrInterrupt):DEFINED (__SPI2ErrInterrupt)?ABSOLUTE (__SPI2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000156          0x4 LONG 0x290 DEFINED (__AltSPI2Interrupt)?ABSOLUTE (__AltSPI2Interrupt):DEFINED (__SPI2Interrupt)?ABSOLUTE (__SPI2Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000158          0x4 LONG 0x290 DEFINED (__AltInterrupt34)?ABSOLUTE (__AltInterrupt34):DEFINED (__Interrupt34)?ABSOLUTE (__Interrupt34):ABSOLUTE (__DefaultInterrupt)
+                  0x00015a          0x4 LONG 0x290 DEFINED (__AltInterrupt35)?ABSOLUTE (__AltInterrupt35):DEFINED (__Interrupt35)?ABSOLUTE (__Interrupt35):ABSOLUTE (__DefaultInterrupt)
+                  0x00015c          0x4 LONG 0x290 DEFINED (__AltDMA3Interrupt)?ABSOLUTE (__AltDMA3Interrupt):DEFINED (__DMA3Interrupt)?ABSOLUTE (__DMA3Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00015e          0x4 LONG 0x290 DEFINED (__AltInterrupt37)?ABSOLUTE (__AltInterrupt37):DEFINED (__Interrupt37)?ABSOLUTE (__Interrupt37):ABSOLUTE (__DefaultInterrupt)
+                  0x000160          0x4 LONG 0x290 DEFINED (__AltInterrupt38)?ABSOLUTE (__AltInterrupt38):DEFINED (__Interrupt38)?ABSOLUTE (__Interrupt38):ABSOLUTE (__DefaultInterrupt)
+                  0x000162          0x4 LONG 0x290 DEFINED (__AltInterrupt39)?ABSOLUTE (__AltInterrupt39):DEFINED (__Interrupt39)?ABSOLUTE (__Interrupt39):ABSOLUTE (__DefaultInterrupt)
+                  0x000164          0x4 LONG 0x290 DEFINED (__AltInterrupt40)?ABSOLUTE (__AltInterrupt40):DEFINED (__Interrupt40)?ABSOLUTE (__Interrupt40):ABSOLUTE (__DefaultInterrupt)
+                  0x000166          0x4 LONG 0x290 DEFINED (__AltInterrupt41)?ABSOLUTE (__AltInterrupt41):DEFINED (__Interrupt41)?ABSOLUTE (__Interrupt41):ABSOLUTE (__DefaultInterrupt)
+                  0x000168          0x4 LONG 0x290 DEFINED (__AltInterrupt42)?ABSOLUTE (__AltInterrupt42):DEFINED (__Interrupt42)?ABSOLUTE (__Interrupt42):ABSOLUTE (__DefaultInterrupt)
+                  0x00016a          0x4 LONG 0x290 DEFINED (__AltInterrupt43)?ABSOLUTE (__AltInterrupt43):DEFINED (__Interrupt43)?ABSOLUTE (__Interrupt43):ABSOLUTE (__DefaultInterrupt)
+                  0x00016c          0x4 LONG 0x290 DEFINED (__AltInterrupt44)?ABSOLUTE (__AltInterrupt44):DEFINED (__Interrupt44)?ABSOLUTE (__Interrupt44):ABSOLUTE (__DefaultInterrupt)
+                  0x00016e          0x4 LONG 0x290 DEFINED (__AltPMPInterrupt)?ABSOLUTE (__AltPMPInterrupt):DEFINED (__PMPInterrupt)?ABSOLUTE (__PMPInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000170          0x4 LONG 0x290 DEFINED (__AltDMA4Interrupt)?ABSOLUTE (__AltDMA4Interrupt):DEFINED (__DMA4Interrupt)?ABSOLUTE (__DMA4Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000172          0x4 LONG 0x290 DEFINED (__AltInterrupt47)?ABSOLUTE (__AltInterrupt47):DEFINED (__Interrupt47)?ABSOLUTE (__Interrupt47):ABSOLUTE (__DefaultInterrupt)
+                  0x000174          0x4 LONG 0x290 DEFINED (__AltInterrupt48)?ABSOLUTE (__AltInterrupt48):DEFINED (__Interrupt48)?ABSOLUTE (__Interrupt48):ABSOLUTE (__DefaultInterrupt)
+                  0x000176          0x4 LONG 0x290 DEFINED (__AltInterrupt49)?ABSOLUTE (__AltInterrupt49):DEFINED (__Interrupt49)?ABSOLUTE (__Interrupt49):ABSOLUTE (__DefaultInterrupt)
+                  0x000178          0x4 LONG 0x290 DEFINED (__AltInterrupt50)?ABSOLUTE (__AltInterrupt50):DEFINED (__Interrupt50)?ABSOLUTE (__Interrupt50):ABSOLUTE (__DefaultInterrupt)
+                  0x00017a          0x4 LONG 0x290 DEFINED (__AltInterrupt51)?ABSOLUTE (__AltInterrupt51):DEFINED (__Interrupt51)?ABSOLUTE (__Interrupt51):ABSOLUTE (__DefaultInterrupt)
+                  0x00017c          0x4 LONG 0x290 DEFINED (__AltInterrupt52)?ABSOLUTE (__AltInterrupt52):DEFINED (__Interrupt52)?ABSOLUTE (__Interrupt52):ABSOLUTE (__DefaultInterrupt)
+                  0x00017e          0x4 LONG 0x290 DEFINED (__AltInterrupt53)?ABSOLUTE (__AltInterrupt53):DEFINED (__Interrupt53)?ABSOLUTE (__Interrupt53):ABSOLUTE (__DefaultInterrupt)
+                  0x000180          0x4 LONG 0x290 DEFINED (__AltInterrupt54)?ABSOLUTE (__AltInterrupt54):DEFINED (__Interrupt54)?ABSOLUTE (__Interrupt54):ABSOLUTE (__DefaultInterrupt)
+                  0x000182          0x4 LONG 0x290 DEFINED (__AltInterrupt55)?ABSOLUTE (__AltInterrupt55):DEFINED (__Interrupt55)?ABSOLUTE (__Interrupt55):ABSOLUTE (__DefaultInterrupt)
+                  0x000184          0x4 LONG 0x290 DEFINED (__AltInterrupt56)?ABSOLUTE (__AltInterrupt56):DEFINED (__Interrupt56)?ABSOLUTE (__Interrupt56):ABSOLUTE (__DefaultInterrupt)
+                  0x000186          0x4 LONG 0x290 DEFINED (__AltInterrupt57)?ABSOLUTE (__AltInterrupt57):DEFINED (__Interrupt57)?ABSOLUTE (__Interrupt57):ABSOLUTE (__DefaultInterrupt)
+                  0x000188          0x4 LONG 0x290 DEFINED (__AltInterrupt58)?ABSOLUTE (__AltInterrupt58):DEFINED (__Interrupt58)?ABSOLUTE (__Interrupt58):ABSOLUTE (__DefaultInterrupt)
+                  0x00018a          0x4 LONG 0x290 DEFINED (__AltInterrupt59)?ABSOLUTE (__AltInterrupt59):DEFINED (__Interrupt59)?ABSOLUTE (__Interrupt59):ABSOLUTE (__DefaultInterrupt)
+                  0x00018c          0x4 LONG 0x290 DEFINED (__AltInterrupt60)?ABSOLUTE (__AltInterrupt60):DEFINED (__Interrupt60)?ABSOLUTE (__Interrupt60):ABSOLUTE (__DefaultInterrupt)
+                  0x00018e          0x4 LONG 0x290 DEFINED (__AltDMA5Interrupt)?ABSOLUTE (__AltDMA5Interrupt):DEFINED (__DMA5Interrupt)?ABSOLUTE (__DMA5Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000190          0x4 LONG 0x290 DEFINED (__AltRTCCInterrupt)?ABSOLUTE (__AltRTCCInterrupt):DEFINED (__RTCCInterrupt)?ABSOLUTE (__RTCCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000192          0x4 LONG 0x290 DEFINED (__AltInterrupt63)?ABSOLUTE (__AltInterrupt63):DEFINED (__Interrupt63)?ABSOLUTE (__Interrupt63):ABSOLUTE (__DefaultInterrupt)
+                  0x000194          0x4 LONG 0x290 DEFINED (__AltInterrupt64)?ABSOLUTE (__AltInterrupt64):DEFINED (__Interrupt64)?ABSOLUTE (__Interrupt64):ABSOLUTE (__DefaultInterrupt)
+                  0x000196          0x4 LONG 0x290 DEFINED (__AltU1ErrInterrupt)?ABSOLUTE (__AltU1ErrInterrupt):DEFINED (__U1ErrInterrupt)?ABSOLUTE (__U1ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x000198          0x4 LONG 0x290 DEFINED (__AltU2ErrInterrupt)?ABSOLUTE (__AltU2ErrInterrupt):DEFINED (__U2ErrInterrupt)?ABSOLUTE (__U2ErrInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00019a          0x4 LONG 0x290 DEFINED (__AltCRCInterrupt)?ABSOLUTE (__AltCRCInterrupt):DEFINED (__CRCInterrupt)?ABSOLUTE (__CRCInterrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00019c          0x4 LONG 0x290 DEFINED (__AltDMA6Interrupt)?ABSOLUTE (__AltDMA6Interrupt):DEFINED (__DMA6Interrupt)?ABSOLUTE (__DMA6Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x00019e          0x4 LONG 0x290 DEFINED (__AltDMA7Interrupt)?ABSOLUTE (__AltDMA7Interrupt):DEFINED (__DMA7Interrupt)?ABSOLUTE (__DMA7Interrupt):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a0          0x4 LONG 0x290 DEFINED (__AltInterrupt70)?ABSOLUTE (__AltInterrupt70):DEFINED (__Interrupt70)?ABSOLUTE (__Interrupt70):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a2          0x4 LONG 0x290 DEFINED (__AltInterrupt71)?ABSOLUTE (__AltInterrupt71):DEFINED (__Interrupt71)?ABSOLUTE (__Interrupt71):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a4          0x4 LONG 0x290 DEFINED (__AltInterrupt72)?ABSOLUTE (__AltInterrupt72):DEFINED (__Interrupt72)?ABSOLUTE (__Interrupt72):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a6          0x4 LONG 0x290 DEFINED (__AltInterrupt73)?ABSOLUTE (__AltInterrupt73):DEFINED (__Interrupt73)?ABSOLUTE (__Interrupt73):ABSOLUTE (__DefaultInterrupt)
+                  0x0001a8          0x4 LONG 0x290 DEFINED (__AltInterrupt74)?ABSOLUTE (__AltInterrupt74):DEFINED (__Interrupt74)?ABSOLUTE (__Interrupt74):ABSOLUTE (__DefaultInterrupt)
+                  0x0001aa          0x4 LONG 0x290 DEFINED (__AltInterrupt75)?ABSOLUTE (__AltInterrupt75):DEFINED (__Interrupt75)?ABSOLUTE (__Interrupt75):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ac          0x4 LONG 0x290 DEFINED (__AltInterrupt76)?ABSOLUTE (__AltInterrupt76):DEFINED (__Interrupt76)?ABSOLUTE (__Interrupt76):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ae          0x4 LONG 0x290 DEFINED (__AltInterrupt77)?ABSOLUTE (__AltInterrupt77):DEFINED (__Interrupt77)?ABSOLUTE (__Interrupt77):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b0          0x4 LONG 0x290 DEFINED (__AltInterrupt78)?ABSOLUTE (__AltInterrupt78):DEFINED (__Interrupt78)?ABSOLUTE (__Interrupt78):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b2          0x4 LONG 0x290 DEFINED (__AltInterrupt79)?ABSOLUTE (__AltInterrupt79):DEFINED (__Interrupt79)?ABSOLUTE (__Interrupt79):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b4          0x4 LONG 0x290 DEFINED (__AltInterrupt80)?ABSOLUTE (__AltInterrupt80):DEFINED (__Interrupt80)?ABSOLUTE (__Interrupt80):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b6          0x4 LONG 0x290 DEFINED (__AltInterrupt81)?ABSOLUTE (__AltInterrupt81):DEFINED (__Interrupt81)?ABSOLUTE (__Interrupt81):ABSOLUTE (__DefaultInterrupt)
+                  0x0001b8          0x4 LONG 0x290 DEFINED (__AltInterrupt82)?ABSOLUTE (__AltInterrupt82):DEFINED (__Interrupt82)?ABSOLUTE (__Interrupt82):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ba          0x4 LONG 0x290 DEFINED (__AltInterrupt83)?ABSOLUTE (__AltInterrupt83):DEFINED (__Interrupt83)?ABSOLUTE (__Interrupt83):ABSOLUTE (__DefaultInterrupt)
+                  0x0001bc          0x4 LONG 0x290 DEFINED (__AltInterrupt84)?ABSOLUTE (__AltInterrupt84):DEFINED (__Interrupt84)?ABSOLUTE (__Interrupt84):ABSOLUTE (__DefaultInterrupt)
+                  0x0001be          0x4 LONG 0x290 DEFINED (__AltInterrupt85)?ABSOLUTE (__AltInterrupt85):DEFINED (__Interrupt85)?ABSOLUTE (__Interrupt85):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c0          0x4 LONG 0x290 DEFINED (__AltInterrupt86)?ABSOLUTE (__AltInterrupt86):DEFINED (__Interrupt86)?ABSOLUTE (__Interrupt86):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c2          0x4 LONG 0x290 DEFINED (__AltInterrupt87)?ABSOLUTE (__AltInterrupt87):DEFINED (__Interrupt87)?ABSOLUTE (__Interrupt87):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c4          0x4 LONG 0x290 DEFINED (__AltInterrupt88)?ABSOLUTE (__AltInterrupt88):DEFINED (__Interrupt88)?ABSOLUTE (__Interrupt88):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c6          0x4 LONG 0x290 DEFINED (__AltInterrupt89)?ABSOLUTE (__AltInterrupt89):DEFINED (__Interrupt89)?ABSOLUTE (__Interrupt89):ABSOLUTE (__DefaultInterrupt)
+                  0x0001c8          0x4 LONG 0x290 DEFINED (__AltInterrupt90)?ABSOLUTE (__AltInterrupt90):DEFINED (__Interrupt90)?ABSOLUTE (__Interrupt90):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ca          0x4 LONG 0x290 DEFINED (__AltInterrupt91)?ABSOLUTE (__AltInterrupt91):DEFINED (__Interrupt91)?ABSOLUTE (__Interrupt91):ABSOLUTE (__DefaultInterrupt)
+                  0x0001cc          0x4 LONG 0x290 DEFINED (__AltInterrupt92)?ABSOLUTE (__AltInterrupt92):DEFINED (__Interrupt92)?ABSOLUTE (__Interrupt92):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ce          0x4 LONG 0x290 DEFINED (__AltInterrupt93)?ABSOLUTE (__AltInterrupt93):DEFINED (__Interrupt93)?ABSOLUTE (__Interrupt93):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d0          0x4 LONG 0x290 DEFINED (__AltInterrupt94)?ABSOLUTE (__AltInterrupt94):DEFINED (__Interrupt94)?ABSOLUTE (__Interrupt94):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d2          0x4 LONG 0x290 DEFINED (__AltInterrupt95)?ABSOLUTE (__AltInterrupt95):DEFINED (__Interrupt95)?ABSOLUTE (__Interrupt95):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d4          0x4 LONG 0x290 DEFINED (__AltInterrupt96)?ABSOLUTE (__AltInterrupt96):DEFINED (__Interrupt96)?ABSOLUTE (__Interrupt96):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d6          0x4 LONG 0x290 DEFINED (__AltInterrupt97)?ABSOLUTE (__AltInterrupt97):DEFINED (__Interrupt97)?ABSOLUTE (__Interrupt97):ABSOLUTE (__DefaultInterrupt)
+                  0x0001d8          0x4 LONG 0x290 DEFINED (__AltInterrupt98)?ABSOLUTE (__AltInterrupt98):DEFINED (__Interrupt98)?ABSOLUTE (__Interrupt98):ABSOLUTE (__DefaultInterrupt)
+                  0x0001da          0x4 LONG 0x290 DEFINED (__AltInterrupt99)?ABSOLUTE (__AltInterrupt99):DEFINED (__Interrupt99)?ABSOLUTE (__Interrupt99):ABSOLUTE (__DefaultInterrupt)
+                  0x0001dc          0x4 LONG 0x290 DEFINED (__AltInterrupt100)?ABSOLUTE (__AltInterrupt100):DEFINED (__Interrupt100)?ABSOLUTE (__Interrupt100):ABSOLUTE (__DefaultInterrupt)
+                  0x0001de          0x4 LONG 0x290 DEFINED (__AltInterrupt101)?ABSOLUTE (__AltInterrupt101):DEFINED (__Interrupt101)?ABSOLUTE (__Interrupt101):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e0          0x4 LONG 0x290 DEFINED (__AltInterrupt102)?ABSOLUTE (__AltInterrupt102):DEFINED (__Interrupt102)?ABSOLUTE (__Interrupt102):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e2          0x4 LONG 0x290 DEFINED (__AltInterrupt103)?ABSOLUTE (__AltInterrupt103):DEFINED (__Interrupt103)?ABSOLUTE (__Interrupt103):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e4          0x4 LONG 0x290 DEFINED (__AltInterrupt104)?ABSOLUTE (__AltInterrupt104):DEFINED (__Interrupt104)?ABSOLUTE (__Interrupt104):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e6          0x4 LONG 0x290 DEFINED (__AltInterrupt105)?ABSOLUTE (__AltInterrupt105):DEFINED (__Interrupt105)?ABSOLUTE (__Interrupt105):ABSOLUTE (__DefaultInterrupt)
+                  0x0001e8          0x4 LONG 0x290 DEFINED (__AltInterrupt106)?ABSOLUTE (__AltInterrupt106):DEFINED (__Interrupt106)?ABSOLUTE (__Interrupt106):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ea          0x4 LONG 0x290 DEFINED (__AltInterrupt107)?ABSOLUTE (__AltInterrupt107):DEFINED (__Interrupt107)?ABSOLUTE (__Interrupt107):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ec          0x4 LONG 0x290 DEFINED (__AltInterrupt108)?ABSOLUTE (__AltInterrupt108):DEFINED (__Interrupt108)?ABSOLUTE (__Interrupt108):ABSOLUTE (__DefaultInterrupt)
+                  0x0001ee          0x4 LONG 0x290 DEFINED (__AltInterrupt109)?ABSOLUTE (__AltInterrupt109):DEFINED (__Interrupt109)?ABSOLUTE (__Interrupt109):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f0          0x4 LONG 0x290 DEFINED (__AltInterrupt110)?ABSOLUTE (__AltInterrupt110):DEFINED (__Interrupt110)?ABSOLUTE (__Interrupt110):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f2          0x4 LONG 0x290 DEFINED (__AltInterrupt111)?ABSOLUTE (__AltInterrupt111):DEFINED (__Interrupt111)?ABSOLUTE (__Interrupt111):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f4          0x4 LONG 0x290 DEFINED (__AltInterrupt112)?ABSOLUTE (__AltInterrupt112):DEFINED (__Interrupt112)?ABSOLUTE (__Interrupt112):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f6          0x4 LONG 0x290 DEFINED (__AltInterrupt113)?ABSOLUTE (__AltInterrupt113):DEFINED (__Interrupt113)?ABSOLUTE (__Interrupt113):ABSOLUTE (__DefaultInterrupt)
+                  0x0001f8          0x4 LONG 0x290 DEFINED (__AltInterrupt114)?ABSOLUTE (__AltInterrupt114):DEFINED (__Interrupt114)?ABSOLUTE (__Interrupt114):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fa          0x4 LONG 0x290 DEFINED (__AltInterrupt115)?ABSOLUTE (__AltInterrupt115):DEFINED (__Interrupt115)?ABSOLUTE (__Interrupt115):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fc          0x4 LONG 0x290 DEFINED (__AltInterrupt116)?ABSOLUTE (__AltInterrupt116):DEFINED (__Interrupt116)?ABSOLUTE (__Interrupt116):ABSOLUTE (__DefaultInterrupt)
+                  0x0001fe          0x4 LONG 0x290 DEFINED (__AltInterrupt117)?ABSOLUTE (__AltInterrupt117):DEFINED (__Interrupt117)?ABSOLUTE (__Interrupt117):ABSOLUTE (__DefaultInterrupt)
+                    0x0000                  WREG0 = 0x0
+                    0x0000                  _WREG0 = 0x0
+                    0x0002                  WREG1 = 0x2
+                    0x0002                  _WREG1 = 0x2
+                    0x0004                  WREG2 = 0x4
+                    0x0004                  _WREG2 = 0x4
+                    0x0006                  WREG3 = 0x6
+                    0x0006                  _WREG3 = 0x6
+                    0x0008                  WREG4 = 0x8
+                    0x0008                  _WREG4 = 0x8
+                    0x000a                  WREG5 = 0xa
+                    0x000a                  _WREG5 = 0xa
+                    0x000c                  WREG6 = 0xc
+                    0x000c                  _WREG6 = 0xc
+                    0x000e                  WREG7 = 0xe
+                    0x000e                  _WREG7 = 0xe
+                    0x0010                  WREG8 = 0x10
+                    0x0010                  _WREG8 = 0x10
+                    0x0012                  WREG9 = 0x12
+                    0x0012                  _WREG9 = 0x12
+                    0x0014                  WREG10 = 0x14
+                    0x0014                  _WREG10 = 0x14
+                    0x0016                  WREG11 = 0x16
+                    0x0016                  _WREG11 = 0x16
+                    0x0018                  WREG12 = 0x18
+                    0x0018                  _WREG12 = 0x18
+                    0x001a                  WREG13 = 0x1a
+                    0x001a                  _WREG13 = 0x1a
+                    0x001c                  WREG14 = 0x1c
+                    0x001c                  _WREG14 = 0x1c
+                    0x001e                  WREG15 = 0x1e
+                    0x001e                  _WREG15 = 0x1e
+                    0x0020                  SPLIM = 0x20
+                    0x0020                  _SPLIM = 0x20
+                    0x002e                  PCL = 0x2e
+                    0x002e                  _PCL = 0x2e
+                    0x0030                  PCH = 0x30
+                    0x0030                  _PCH = 0x30
+                    0x0032                  TBLPAG = 0x32
+                    0x0032                  _TBLPAG = 0x32
+                    0x0034                  PSVPAG = 0x34
+                    0x0034                  _PSVPAG = 0x34
+                    0x0036                  RCOUNT = 0x36
+                    0x0036                  _RCOUNT = 0x36
+                    0x0042                  SR = 0x42
+                    0x0042                  _SR = 0x42
+                    0x0042                  _SRbits = 0x42
+                    0x0044                  CORCON = 0x44
+                    0x0044                  _CORCON = 0x44
+                    0x0044                  _CORCONbits = 0x44
+                    0x0052                  DISICNT = 0x52
+                    0x0052                  _DISICNT = 0x52
+                    0x0060                  CNEN1 = 0x60
+                    0x0060                  _CNEN1 = 0x60
+                    0x0060                  _CNEN1bits = 0x60
+                    0x0062                  CNEN2 = 0x62
+                    0x0062                  _CNEN2 = 0x62
+                    0x0062                  _CNEN2bits = 0x62
+                    0x0068                  CNPU1 = 0x68
+                    0x0068                  _CNPU1 = 0x68
+                    0x0068                  _CNPU1bits = 0x68
+                    0x006a                  CNPU2 = 0x6a
+                    0x006a                  _CNPU2 = 0x6a
+                    0x006a                  _CNPU2bits = 0x6a
+                    0x0080                  INTCON1 = 0x80
+                    0x0080                  _INTCON1 = 0x80
+                    0x0080                  _INTCON1bits = 0x80
+                    0x0082                  INTCON2 = 0x82
+                    0x0082                  _INTCON2 = 0x82
+                    0x0082                  _INTCON2bits = 0x82
+                    0x0084                  IFS0 = 0x84
+                    0x0084                  _IFS0 = 0x84
+                    0x0084                  _IFS0bits = 0x84
+                    0x0086                  IFS1 = 0x86
+                    0x0086                  _IFS1 = 0x86
+                    0x0086                  _IFS1bits = 0x86
+                    0x0088                  IFS2 = 0x88
+                    0x0088                  _IFS2 = 0x88
+                    0x0088                  _IFS2bits = 0x88
+                    0x008a                  IFS3 = 0x8a
+                    0x008a                  _IFS3 = 0x8a
+                    0x008a                  _IFS3bits = 0x8a
+                    0x008c                  IFS4 = 0x8c
+                    0x008c                  _IFS4 = 0x8c
+                    0x008c                  _IFS4bits = 0x8c
+                    0x0094                  IEC0 = 0x94
+                    0x0094                  _IEC0 = 0x94
+                    0x0094                  _IEC0bits = 0x94
+                    0x0096                  IEC1 = 0x96
+                    0x0096                  _IEC1 = 0x96
+                    0x0096                  _IEC1bits = 0x96
+                    0x0098                  IEC2 = 0x98
+                    0x0098                  _IEC2 = 0x98
+                    0x0098                  _IEC2bits = 0x98
+                    0x009a                  IEC3 = 0x9a
+                    0x009a                  _IEC3 = 0x9a
+                    0x009a                  _IEC3bits = 0x9a
+                    0x009c                  IEC4 = 0x9c
+                    0x009c                  _IEC4 = 0x9c
+                    0x009c                  _IEC4bits = 0x9c
+                    0x00a4                  IPC0 = 0xa4
+                    0x00a4                  _IPC0 = 0xa4
+                    0x00a4                  _IPC0bits = 0xa4
+                    0x00a6                  IPC1 = 0xa6
+                    0x00a6                  _IPC1 = 0xa6
+                    0x00a6                  _IPC1bits = 0xa6
+                    0x00a8                  IPC2 = 0xa8
+                    0x00a8                  _IPC2 = 0xa8
+                    0x00a8                  _IPC2bits = 0xa8
+                    0x00aa                  IPC3 = 0xaa
+                    0x00aa                  _IPC3 = 0xaa
+                    0x00aa                  _IPC3bits = 0xaa
+                    0x00ac                  IPC4 = 0xac
+                    0x00ac                  _IPC4 = 0xac
+                    0x00ac                  _IPC4bits = 0xac
+                    0x00ae                  IPC5 = 0xae
+                    0x00ae                  _IPC5 = 0xae
+                    0x00ae                  _IPC5bits = 0xae
+                    0x00b0                  IPC6 = 0xb0
+                    0x00b0                  _IPC6 = 0xb0
+                    0x00b0                  _IPC6bits = 0xb0
+                    0x00b2                  IPC7 = 0xb2
+                    0x00b2                  _IPC7 = 0xb2
+                    0x00b2                  _IPC7bits = 0xb2
+                    0x00b4                  IPC8 = 0xb4
+                    0x00b4                  _IPC8 = 0xb4
+                    0x00b4                  _IPC8bits = 0xb4
+                    0x00b6                  IPC9 = 0xb6
+                    0x00b6                  _IPC9 = 0xb6
+                    0x00b6                  _IPC9bits = 0xb6
+                    0x00ba                  IPC11 = 0xba
+                    0x00ba                  _IPC11 = 0xba
+                    0x00ba                  _IPC11bits = 0xba
+                    0x00c2                  IPC15 = 0xc2
+                    0x00c2                  _IPC15 = 0xc2
+                    0x00c2                  _IPC15bits = 0xc2
+                    0x00c4                  IPC16 = 0xc4
+                    0x00c4                  _IPC16 = 0xc4
+                    0x00c4                  _IPC16bits = 0xc4
+                    0x00c6                  IPC17 = 0xc6
+                    0x00c6                  _IPC17 = 0xc6
+                    0x00c6                  _IPC17bits = 0xc6
+                    0x00e0                  INTTREG = 0xe0
+                    0x00e0                  _INTTREG = 0xe0
+                    0x00e0                  _INTTREGbits = 0xe0
+                    0x0100                  TMR1 = 0x100
+                    0x0100                  _TMR1 = 0x100
+                    0x0102                  PR1 = 0x102
+                    0x0102                  _PR1 = 0x102
+                    0x0104                  T1CON = 0x104
+                    0x0104                  _T1CON = 0x104
+                    0x0104                  _T1CONbits = 0x104
+                    0x0106                  TMR2 = 0x106
+                    0x0106                  _TMR2 = 0x106
+                    0x0108                  TMR3HLD = 0x108
+                    0x0108                  _TMR3HLD = 0x108
+                    0x010a                  TMR3 = 0x10a
+                    0x010a                  _TMR3 = 0x10a
+                    0x010c                  PR2 = 0x10c
+                    0x010c                  _PR2 = 0x10c
+                    0x010e                  PR3 = 0x10e
+                    0x010e                  _PR3 = 0x10e
+                    0x0110                  T2CON = 0x110
+                    0x0110                  _T2CON = 0x110
+                    0x0110                  _T2CONbits = 0x110
+                    0x0112                  T3CON = 0x112
+                    0x0112                  _T3CON = 0x112
+                    0x0112                  _T3CONbits = 0x112
+                    0x0114                  TMR4 = 0x114
+                    0x0114                  _TMR4 = 0x114
+                    0x0116                  TMR5HLD = 0x116
+                    0x0116                  _TMR5HLD = 0x116
+                    0x0118                  TMR5 = 0x118
+                    0x0118                  _TMR5 = 0x118
+                    0x011a                  PR4 = 0x11a
+                    0x011a                  _PR4 = 0x11a
+                    0x011c                  PR5 = 0x11c
+                    0x011c                  _PR5 = 0x11c
+                    0x011e                  T4CON = 0x11e
+                    0x011e                  _T4CON = 0x11e
+                    0x011e                  _T4CONbits = 0x11e
+                    0x0120                  T5CON = 0x120
+                    0x0120                  _T5CON = 0x120
+                    0x0120                  _T5CONbits = 0x120
+                    0x0140                  IC1BUF = 0x140
+                    0x0140                  _IC1BUF = 0x140
+                    0x0142                  IC1CON = 0x142
+                    0x0142                  _IC1CON = 0x142
+                    0x0142                  _IC1CONbits = 0x142
+                    0x0144                  IC2BUF = 0x144
+                    0x0144                  _IC2BUF = 0x144
+                    0x0146                  IC2CON = 0x146
+                    0x0146                  _IC2CON = 0x146
+                    0x0146                  _IC2CONbits = 0x146
+                    0x0158                  IC7BUF = 0x158
+                    0x0158                  _IC7BUF = 0x158
+                    0x015a                  IC7CON = 0x15a
+                    0x015a                  _IC7CON = 0x15a
+                    0x015a                  _IC7CONbits = 0x15a
+                    0x015c                  IC8BUF = 0x15c
+                    0x015c                  _IC8BUF = 0x15c
+                    0x015e                  IC8CON = 0x15e
+                    0x015e                  _IC8CON = 0x15e
+                    0x015e                  _IC8CONbits = 0x15e
+                    0x0180                  OC1RS = 0x180
+                    0x0180                  _OC1RS = 0x180
+                    0x0182                  OC1R = 0x182
+                    0x0182                  _OC1R = 0x182
+                    0x0184                  OC1CON = 0x184
+                    0x0184                  _OC1CON = 0x184
+                    0x0184                  _OC1CONbits = 0x184
+                    0x0186                  OC2RS = 0x186
+                    0x0186                  _OC2RS = 0x186
+                    0x0188                  OC2R = 0x188
+                    0x0188                  _OC2R = 0x188
+                    0x018a                  OC2CON = 0x18a
+                    0x018a                  _OC2CON = 0x18a
+                    0x018a                  _OC2CONbits = 0x18a
+                    0x018c                  OC3RS = 0x18c
+                    0x018c                  _OC3RS = 0x18c
+                    0x018e                  OC3R = 0x18e
+                    0x018e                  _OC3R = 0x18e
+                    0x0190                  OC3CON = 0x190
+                    0x0190                  _OC3CON = 0x190
+                    0x0190                  _OC3CONbits = 0x190
+                    0x0192                  OC4RS = 0x192
+                    0x0192                  _OC4RS = 0x192
+                    0x0194                  OC4R = 0x194
+                    0x0194                  _OC4R = 0x194
+                    0x0196                  OC4CON = 0x196
+                    0x0196                  _OC4CON = 0x196
+                    0x0196                  _OC4CONbits = 0x196
+                    0x0200                  I2C1RCV = 0x200
+                    0x0200                  _I2C1RCV = 0x200
+                    0x0200                  I2CRCV = 0x200
+                    0x0200                  _I2CRCV = 0x200
+                    0x0202                  I2C1TRN = 0x202
+                    0x0202                  _I2C1TRN = 0x202
+                    0x0202                  I2CTRN = 0x202
+                    0x0202                  _I2CTRN = 0x202
+                    0x0204                  I2C1BRG = 0x204
+                    0x0204                  _I2C1BRG = 0x204
+                    0x0206                  I2C1CON = 0x206
+                    0x0206                  _I2C1CON = 0x206
+                    0x0206                  _I2C1CONbits = 0x206
+                    0x0206                  I2CCON = 0x206
+                    0x0206                  _I2CCON = 0x206
+                    0x0206                  _I2CCONbits = 0x206
+                    0x0208                  I2C1STAT = 0x208
+                    0x0208                  _I2C1STAT = 0x208
+                    0x0208                  _I2C1STATbits = 0x208
+                    0x0208                  I2CSTAT = 0x208
+                    0x0208                  _I2CSTAT = 0x208
+                    0x0208                  _I2CSTATbits = 0x208
+                    0x020a                  I2C1ADD = 0x20a
+                    0x020a                  _I2C1ADD = 0x20a
+                    0x020a                  I2CADD = 0x20a
+                    0x020a                  _I2CADD = 0x20a
+                    0x020c                  I2C1MSK = 0x20c
+                    0x020c                  _I2C1MSK = 0x20c
+                    0x0220                  U1MODE = 0x220
+                    0x0220                  _U1MODE = 0x220
+                    0x0220                  _U1MODEbits = 0x220
+                    0x0222                  U1STA = 0x222
+                    0x0222                  _U1STA = 0x222
+                    0x0222                  _U1STAbits = 0x222
+                    0x0224                  U1TXREG = 0x224
+                    0x0224                  _U1TXREG = 0x224
+                    0x0224                  _U1TXREGbits = 0x224
+                    0x0226                  U1RXREG = 0x226
+                    0x0226                  _U1RXREG = 0x226
+                    0x0226                  _U1RXREGbits = 0x226
+                    0x0228                  U1BRG = 0x228
+                    0x0228                  _U1BRG = 0x228
+                    0x0230                  U2MODE = 0x230
+                    0x0230                  _U2MODE = 0x230
+                    0x0230                  _U2MODEbits = 0x230
+                    0x0232                  U2STA = 0x232
+                    0x0232                  _U2STA = 0x232
+                    0x0232                  _U2STAbits = 0x232
+                    0x0234                  U2TXREG = 0x234
+                    0x0234                  _U2TXREG = 0x234
+                    0x0234                  _U2TXREGbits = 0x234
+                    0x0236                  U2RXREG = 0x236
+                    0x0236                  _U2RXREG = 0x236
+                    0x0236                  _U2RXREGbits = 0x236
+                    0x0238                  U2BRG = 0x238
+                    0x0238                  _U2BRG = 0x238
+                    0x0240                  SPI1STAT = 0x240
+                    0x0240                  _SPI1STAT = 0x240
+                    0x0240                  _SPI1STATbits = 0x240
+                    0x0242                  SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1 = 0x242
+                    0x0242                  _SPI1CON1bits = 0x242
+                    0x0244                  SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2 = 0x244
+                    0x0244                  _SPI1CON2bits = 0x244
+                    0x0248                  SPI1BUF = 0x248
+                    0x0248                  _SPI1BUF = 0x248
+                    0x0260                  SPI2STAT = 0x260
+                    0x0260                  _SPI2STAT = 0x260
+                    0x0260                  _SPI2STATbits = 0x260
+                    0x0262                  SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1 = 0x262
+                    0x0262                  _SPI2CON1bits = 0x262
+                    0x0264                  SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2 = 0x264
+                    0x0264                  _SPI2CON2bits = 0x264
+                    0x0268                  SPI2BUF = 0x268
+                    0x0268                  _SPI2BUF = 0x268
+                    0x02c0                  TRISA = 0x2c0
+                    0x02c0                  _TRISA = 0x2c0
+                    0x02c0                  _TRISAbits = 0x2c0
+                    0x02c2                  PORTA = 0x2c2
+                    0x02c2                  _PORTA = 0x2c2
+                    0x02c2                  _PORTAbits = 0x2c2
+                    0x02c4                  LATA = 0x2c4
+                    0x02c4                  _LATA = 0x2c4
+                    0x02c4                  _LATAbits = 0x2c4
+                    0x02c6                  ODCA = 0x2c6
+                    0x02c6                  _ODCA = 0x2c6
+                    0x02c6                  _ODCAbits = 0x2c6
+                    0x02c8                  TRISB = 0x2c8
+                    0x02c8                  _TRISB = 0x2c8
+                    0x02c8                  _TRISBbits = 0x2c8
+                    0x02ca                  PORTB = 0x2ca
+                    0x02ca                  _PORTB = 0x2ca
+                    0x02ca                  _PORTBbits = 0x2ca
+                    0x02cc                  LATB = 0x2cc
+                    0x02cc                  _LATB = 0x2cc
+                    0x02cc                  _LATBbits = 0x2cc
+                    0x02ce                  ODCB = 0x2ce
+                    0x02ce                  _ODCB = 0x2ce
+                    0x02ce                  _ODCBbits = 0x2ce
+                    0x02d0                  TRISC = 0x2d0
+                    0x02d0                  _TRISC = 0x2d0
+                    0x02d0                  _TRISCbits = 0x2d0
+                    0x02d2                  PORTC = 0x2d2
+                    0x02d2                  _PORTC = 0x2d2
+                    0x02d2                  _PORTCbits = 0x2d2
+                    0x02d4                  LATC = 0x2d4
+                    0x02d4                  _LATC = 0x2d4
+                    0x02d4                  _LATCbits = 0x2d4
+                    0x02d6                  ODCC = 0x2d6
+                    0x02d6                  _ODCC = 0x2d6
+                    0x02d6                  _ODCCbits = 0x2d6
+                    0x02fc                  PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1 = 0x2fc
+                    0x02fc                  _PADCFG1bits = 0x2fc
+                    0x0300                  ADC1BUF0 = 0x300
+                    0x0300                  _ADC1BUF0 = 0x300
+                    0x0300                  ADCBUF0 = 0x300
+                    0x0300                  _ADCBUF0 = 0x300
+                    0x0320                  AD1CON1 = 0x320
+                    0x0320                  _AD1CON1 = 0x320
+                    0x0320                  _AD1CON1bits = 0x320
+                    0x0322                  AD1CON2 = 0x322
+                    0x0322                  _AD1CON2 = 0x322
+                    0x0322                  _AD1CON2bits = 0x322
+                    0x0324                  AD1CON3 = 0x324
+                    0x0324                  _AD1CON3 = 0x324
+                    0x0324                  _AD1CON3bits = 0x324
+                    0x0326                  AD1CHS123 = 0x326
+                    0x0326                  _AD1CHS123 = 0x326
+                    0x0326                  _AD1CHS123bits = 0x326
+                    0x0328                  AD1CHS0 = 0x328
+                    0x0328                  _AD1CHS0 = 0x328
+                    0x0328                  _AD1CHS0bits = 0x328
+                    0x032c                  AD1PCFGL = 0x32c
+                    0x032c                  _AD1PCFGL = 0x32c
+                    0x032c                  _AD1PCFGLbits = 0x32c
+                    0x032c                  ADPCFG = 0x32c
+                    0x032c                  _ADPCFG = 0x32c
+                    0x032c                  _ADPCFGbits = 0x32c
+                    0x0330                  AD1CSSL = 0x330
+                    0x0330                  _AD1CSSL = 0x330
+                    0x0330                  _AD1CSSLbits = 0x330
+                    0x0332                  AD1CON4 = 0x332
+                    0x0332                  _AD1CON4 = 0x332
+                    0x0332                  _AD1CON4bits = 0x332
+                    0x0380                  DMA0CON = 0x380
+                    0x0380                  _DMA0CON = 0x380
+                    0x0380                  _DMA0CONbits = 0x380
+                    0x0382                  DMA0REQ = 0x382
+                    0x0382                  _DMA0REQ = 0x382
+                    0x0382                  _DMA0REQbits = 0x382
+                    0x0384                  DMA0STA = 0x384
+                    0x0384                  _DMA0STA = 0x384
+                    0x0386                  DMA0STB = 0x386
+                    0x0386                  _DMA0STB = 0x386
+                    0x0388                  DMA0PAD = 0x388
+                    0x0388                  _DMA0PAD = 0x388
+                    0x038a                  DMA0CNT = 0x38a
+                    0x038a                  _DMA0CNT = 0x38a
+                    0x038c                  DMA1CON = 0x38c
+                    0x038c                  _DMA1CON = 0x38c
+                    0x038c                  _DMA1CONbits = 0x38c
+                    0x038e                  DMA1REQ = 0x38e
+                    0x038e                  _DMA1REQ = 0x38e
+                    0x038e                  _DMA1REQbits = 0x38e
+                    0x0390                  DMA1STA = 0x390
+                    0x0390                  _DMA1STA = 0x390
+                    0x0392                  DMA1STB = 0x392
+                    0x0392                  _DMA1STB = 0x392
+                    0x0394                  DMA1PAD = 0x394
+                    0x0394                  _DMA1PAD = 0x394
+                    0x0396                  DMA1CNT = 0x396
+                    0x0396                  _DMA1CNT = 0x396
+                    0x0398                  DMA2CON = 0x398
+                    0x0398                  _DMA2CON = 0x398
+                    0x0398                  _DMA2CONbits = 0x398
+                    0x039a                  DMA2REQ = 0x39a
+                    0x039a                  _DMA2REQ = 0x39a
+                    0x039a                  _DMA2REQbits = 0x39a
+                    0x039c                  DMA2STA = 0x39c
+                    0x039c                  _DMA2STA = 0x39c
+                    0x039e                  DMA2STB = 0x39e
+                    0x039e                  _DMA2STB = 0x39e
+                    0x03a0                  DMA2PAD = 0x3a0
+                    0x03a0                  _DMA2PAD = 0x3a0
+                    0x03a2                  DMA2CNT = 0x3a2
+                    0x03a2                  _DMA2CNT = 0x3a2
+                    0x03a4                  DMA3CON = 0x3a4
+                    0x03a4                  _DMA3CON = 0x3a4
+                    0x03a4                  _DMA3CONbits = 0x3a4
+                    0x03a6                  DMA3REQ = 0x3a6
+                    0x03a6                  _DMA3REQ = 0x3a6
+                    0x03a6                  _DMA3REQbits = 0x3a6
+                    0x03a8                  DMA3STA = 0x3a8
+                    0x03a8                  _DMA3STA = 0x3a8
+                    0x03aa                  DMA3STB = 0x3aa
+                    0x03aa                  _DMA3STB = 0x3aa
+                    0x03ac                  DMA3PAD = 0x3ac
+                    0x03ac                  _DMA3PAD = 0x3ac
+                    0x03ae                  DMA3CNT = 0x3ae
+                    0x03ae                  _DMA3CNT = 0x3ae
+                    0x03b0                  DMA4CON = 0x3b0
+                    0x03b0                  _DMA4CON = 0x3b0
+                    0x03b0                  _DMA4CONbits = 0x3b0
+                    0x03b2                  DMA4REQ = 0x3b2
+                    0x03b2                  _DMA4REQ = 0x3b2
+                    0x03b2                  _DMA4REQbits = 0x3b2
+                    0x03b4                  DMA4STA = 0x3b4
+                    0x03b4                  _DMA4STA = 0x3b4
+                    0x03b6                  DMA4STB = 0x3b6
+                    0x03b6                  _DMA4STB = 0x3b6
+                    0x03b8                  DMA4PAD = 0x3b8
+                    0x03b8                  _DMA4PAD = 0x3b8
+                    0x03ba                  DMA4CNT = 0x3ba
+                    0x03ba                  _DMA4CNT = 0x3ba
+                    0x03bc                  DMA5CON = 0x3bc
+                    0x03bc                  _DMA5CON = 0x3bc
+                    0x03bc                  _DMA5CONbits = 0x3bc
+                    0x03be                  DMA5REQ = 0x3be
+                    0x03be                  _DMA5REQ = 0x3be
+                    0x03be                  _DMA5REQbits = 0x3be
+                    0x03c0                  DMA5STA = 0x3c0
+                    0x03c0                  _DMA5STA = 0x3c0
+                    0x03c2                  DMA5STB = 0x3c2
+                    0x03c2                  _DMA5STB = 0x3c2
+                    0x03c4                  DMA5PAD = 0x3c4
+                    0x03c4                  _DMA5PAD = 0x3c4
+                    0x03c6                  DMA5CNT = 0x3c6
+                    0x03c6                  _DMA5CNT = 0x3c6
+                    0x03c8                  DMA6CON = 0x3c8
+                    0x03c8                  _DMA6CON = 0x3c8
+                    0x03c8                  _DMA6CONbits = 0x3c8
+                    0x03ca                  DMA6REQ = 0x3ca
+                    0x03ca                  _DMA6REQ = 0x3ca
+                    0x03ca                  _DMA6REQbits = 0x3ca
+                    0x03cc                  DMA6STA = 0x3cc
+                    0x03cc                  _DMA6STA = 0x3cc
+                    0x03ce                  DMA6STB = 0x3ce
+                    0x03ce                  _DMA6STB = 0x3ce
+                    0x03d0                  DMA6PAD = 0x3d0
+                    0x03d0                  _DMA6PAD = 0x3d0
+                    0x03d2                  DMA6CNT = 0x3d2
+                    0x03d2                  _DMA6CNT = 0x3d2
+                    0x03d4                  DMA7CON = 0x3d4
+                    0x03d4                  _DMA7CON = 0x3d4
+                    0x03d4                  _DMA7CONbits = 0x3d4
+                    0x03d6                  DMA7REQ = 0x3d6
+                    0x03d6                  _DMA7REQ = 0x3d6
+                    0x03d6                  _DMA7REQbits = 0x3d6
+                    0x03d8                  DMA7STA = 0x3d8
+                    0x03d8                  _DMA7STA = 0x3d8
+                    0x03da                  DMA7STB = 0x3da
+                    0x03da                  _DMA7STB = 0x3da
+                    0x03dc                  DMA7PAD = 0x3dc
+                    0x03dc                  _DMA7PAD = 0x3dc
+                    0x03de                  DMA7CNT = 0x3de
+                    0x03de                  _DMA7CNT = 0x3de
+                    0x03e0                  DMACS0 = 0x3e0
+                    0x03e0                  _DMACS0 = 0x3e0
+                    0x03e0                  _DMACS0bits = 0x3e0
+                    0x03e2                  DMACS1 = 0x3e2
+                    0x03e2                  _DMACS1 = 0x3e2
+                    0x03e2                  _DMACS1bits = 0x3e2
+                    0x03e4                  DSADR = 0x3e4
+                    0x03e4                  _DSADR = 0x3e4
+                    0x0600                  PMCON = 0x600
+                    0x0600                  _PMCON = 0x600
+                    0x0600                  _PMCONbits = 0x600
+                    0x0602                  PMMODE = 0x602
+                    0x0602                  _PMMODE = 0x602
+                    0x0602                  _PMMODEbits = 0x602
+                    0x0604                  PMADDR = 0x604
+                    0x0604                  _PMADDR = 0x604
+                    0x0604                  _PMADDRbits = 0x604
+                    0x0604                  PMDOUT1 = 0x604
+                    0x0604                  _PMDOUT1 = 0x604
+                    0x0606                  PMDOUT2 = 0x606
+                    0x0606                  _PMDOUT2 = 0x606
+                    0x0608                  PMDIN1 = 0x608
+                    0x0608                  _PMDIN1 = 0x608
+                    0x060a                  PMDIN2 = 0x60a
+                    0x060a                  _PMDIN2 = 0x60a
+                    0x060c                  PMAEN = 0x60c
+                    0x060c                  _PMAEN = 0x60c
+                    0x060c                  _PMAENbits = 0x60c
+                    0x060e                  PMSTAT = 0x60e
+                    0x060e                  _PMSTAT = 0x60e
+                    0x060e                  _PMSTATbits = 0x60e
+                    0x0620                  ALRMVAL = 0x620
+                    0x0620                  _ALRMVAL = 0x620
+                    0x0622                  ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPT = 0x622
+                    0x0622                  _ALCFGRPTbits = 0x622
+                    0x0624                  RTCVAL = 0x624
+                    0x0624                  _RTCVAL = 0x624
+                    0x0626                  RCFGCAL = 0x626
+                    0x0626                  _RCFGCAL = 0x626
+                    0x0626                  _RCFGCALbits = 0x626
+                    0x0630                  CMCON = 0x630
+                    0x0630                  _CMCON = 0x630
+                    0x0630                  _CMCONbits = 0x630
+                    0x0632                  CVRCON = 0x632
+                    0x0632                  _CVRCON = 0x632
+                    0x0632                  _CVRCONbits = 0x632
+                    0x0640                  CRCCON = 0x640
+                    0x0640                  _CRCCON = 0x640
+                    0x0640                  _CRCCONbits = 0x640
+                    0x0642                  CRCXOR = 0x642
+                    0x0642                  _CRCXOR = 0x642
+                    0x0644                  CRCDAT = 0x644
+                    0x0644                  _CRCDAT = 0x644
+                    0x0646                  CRCWDAT = 0x646
+                    0x0646                  _CRCWDAT = 0x646
+                    0x0680                  RPINR0 = 0x680
+                    0x0680                  _RPINR0 = 0x680
+                    0x0680                  _RPINR0bits = 0x680
+                    0x0682                  RPINR1 = 0x682
+                    0x0682                  _RPINR1 = 0x682
+                    0x0682                  _RPINR1bits = 0x682
+                    0x0686                  RPINR3 = 0x686
+                    0x0686                  _RPINR3 = 0x686
+                    0x0686                  _RPINR3bits = 0x686
+                    0x0688                  RPINR4 = 0x688
+                    0x0688                  _RPINR4 = 0x688
+                    0x0688                  _RPINR4bits = 0x688
+                    0x068e                  RPINR7 = 0x68e
+                    0x068e                  _RPINR7 = 0x68e
+                    0x068e                  _RPINR7bits = 0x68e
+                    0x0694                  RPINR10 = 0x694
+                    0x0694                  _RPINR10 = 0x694
+                    0x0694                  _RPINR10bits = 0x694
+                    0x0696                  RPINR11 = 0x696
+                    0x0696                  _RPINR11 = 0x696
+                    0x0696                  _RPINR11bits = 0x696
+                    0x06a4                  RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18 = 0x6a4
+                    0x06a4                  _RPINR18bits = 0x6a4
+                    0x06a6                  RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19 = 0x6a6
+                    0x06a6                  _RPINR19bits = 0x6a6
+                    0x06a8                  RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20 = 0x6a8
+                    0x06a8                  _RPINR20bits = 0x6a8
+                    0x06aa                  RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21 = 0x6aa
+                    0x06aa                  _RPINR21bits = 0x6aa
+                    0x06ac                  RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22 = 0x6ac
+                    0x06ac                  _RPINR22bits = 0x6ac
+                    0x06ae                  RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23 = 0x6ae
+                    0x06ae                  _RPINR23bits = 0x6ae
+                    0x06c0                  RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0 = 0x6c0
+                    0x06c0                  _RPOR0bits = 0x6c0
+                    0x06c2                  RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1 = 0x6c2
+                    0x06c2                  _RPOR1bits = 0x6c2
+                    0x06c4                  RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2 = 0x6c4
+                    0x06c4                  _RPOR2bits = 0x6c4
+                    0x06c6                  RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3 = 0x6c6
+                    0x06c6                  _RPOR3bits = 0x6c6
+                    0x06c8                  RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4 = 0x6c8
+                    0x06c8                  _RPOR4bits = 0x6c8
+                    0x06ca                  RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5 = 0x6ca
+                    0x06ca                  _RPOR5bits = 0x6ca
+                    0x06cc                  RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6 = 0x6cc
+                    0x06cc                  _RPOR6bits = 0x6cc
+                    0x06ce                  RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7 = 0x6ce
+                    0x06ce                  _RPOR7bits = 0x6ce
+                    0x06d0                  RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8 = 0x6d0
+                    0x06d0                  _RPOR8bits = 0x6d0
+                    0x06d2                  RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9 = 0x6d2
+                    0x06d2                  _RPOR9bits = 0x6d2
+                    0x06d4                  RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10 = 0x6d4
+                    0x06d4                  _RPOR10bits = 0x6d4
+                    0x06d6                  RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11 = 0x6d6
+                    0x06d6                  _RPOR11bits = 0x6d6
+                    0x06d8                  RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12 = 0x6d8
+                    0x06d8                  _RPOR12bits = 0x6d8
+                    0x0740                  RCON = 0x740
+                    0x0740                  _RCON = 0x740
+                    0x0740                  _RCONbits = 0x740
+                    0x0742                  OSCCON = 0x742
+                    0x0742                  _OSCCON = 0x742
+                    0x0742                  _OSCCONbits = 0x742
+                    0x0742                  OSCCONL = 0x742
+                    0x0742                  _OSCCONL = 0x742
+                    0x0743                  OSCCONH = 0x743
+                    0x0743                  _OSCCONH = 0x743
+                    0x0744                  CLKDIV = 0x744
+                    0x0744                  _CLKDIV = 0x744
+                    0x0744                  _CLKDIVbits = 0x744
+                    0x0746                  PLLFBD = 0x746
+                    0x0746                  _PLLFBD = 0x746
+                    0x0746                  _PLLFBDbits = 0x746
+                    0x0748                  OSCTUN = 0x748
+                    0x0748                  _OSCTUN = 0x748
+                    0x0748                  _OSCTUNbits = 0x748
+                    0x0750                  BSRAM = 0x750
+                    0x0750                  _BSRAM = 0x750
+                    0x0750                  _BSRAMbits = 0x750
+                    0x0752                  SSRAM = 0x752
+                    0x0752                  _SSRAM = 0x752
+                    0x0752                  _SSRAMbits = 0x752
+                    0x0760                  NVMCON = 0x760
+                    0x0760                  _NVMCON = 0x760
+                    0x0760                  _NVMCONbits = 0x760
+                    0x0766                  NVMKEY = 0x766
+                    0x0766                  _NVMKEY = 0x766
+                    0x0770                  PMD1 = 0x770
+                    0x0770                  _PMD1 = 0x770
+                    0x0770                  _PMD1bits = 0x770
+                    0x0772                  PMD2 = 0x772
+                    0x0772                  _PMD2 = 0x772
+                    0x0772                  _PMD2bits = 0x772
+                    0x0774                  PMD3 = 0x774
+                    0x0774                  _PMD3 = 0x774
+                    0x0774                  _PMD3bits = 0x774
+                    0x0140                  IC1 = 0x140
+                    0x0140                  _IC1 = 0x140
+                    0x0144                  IC2 = 0x144
+                    0x0144                  _IC2 = 0x144
+                    0x0158                  IC7 = 0x158
+                    0x0158                  _IC7 = 0x158
+                    0x015c                  IC8 = 0x15c
+                    0x015c                  _IC8 = 0x15c
+                    0x0180                  OC1 = 0x180
+                    0x0180                  _OC1 = 0x180
+                    0x0186                  OC2 = 0x186
+                    0x0186                  _OC2 = 0x186
+                    0x018c                  OC3 = 0x18c
+                    0x018c                  _OC3 = 0x18c
+                    0x0192                  OC4 = 0x192
+                    0x0192                  _OC4 = 0x192
+                    0x0240                  SPI1 = 0x240
+                    0x0240                  _SPI1 = 0x240
+                    0x0260                  SPI2 = 0x260
+                    0x0260                  _SPI2 = 0x260
+                    0x0220                  UART1 = 0x220
+                    0x0220                  _UART1 = 0x220
+                    0x0230                  UART2 = 0x230
+                    0x0230                  _UART2 = 0x230
+                    0x0001                  __MPLAB_BUILD = 0x1
+START GROUP
+LOAD c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a
+LOAD c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a
+LOAD c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a
+END GROUP
+OUTPUT(FocusingRotator.cof coff-pic30)
+LOAD data_init
+LOAD default_isr
+
+__c30_signature
+                  0x000000        0x240
+ __c30_signature
+                  0x000000          0x6 CustomHTTPApp.o
+ __c30_signature
+                  0x000006          0x6 DIN_Input.o
+ __c30_signature
+                  0x00000c          0x6 FocuserMotion.o
+ __c30_signature
+                  0x000012          0x6 FocusingRotator.o
+ __c30_signature
+                  0x000018          0x6 Main.o
+ __c30_signature
+                  0x00001e          0x6 NVM.o
+ __c30_signature
+                  0x000024          0x6 Rotator.o
+ __c30_signature
+                  0x00002a          0x6 RotatorMotion.o
+ __c30_signature
+                  0x000030          0x6 Stepper.o
+ __c30_signature
+                  0x000036          0x6 TempComp.o
+ __c30_signature
+                  0x00003c          0x6 Announce.o
+ __c30_signature
+                  0x000042          0x6 ARCFOUR.o
+ __c30_signature
+                  0x000048          0x6 ARP.o
+ __c30_signature
+                  0x00004e          0x6 AutoIP.o
+ __c30_signature
+                  0x000054          0x6 BerkeleyAPI.o
+ __c30_signature
+                  0x00005a          0x6 BigInt.o
+ __c30_signature
+                  0x000060          0x6 Delay.o
+ __c30_signature
+                  0x000066          0x6 DHCP.o
+ __c30_signature
+                  0x00006c          0x6 DHCPs.o
+ __c30_signature
+                  0x000072          0x6 DNS.o
+ __c30_signature
+                  0x000078          0x6 DNSs.o
+ __c30_signature
+                  0x00007e          0x6 DynDNS.o
+ __c30_signature
+                  0x000084          0x6 ENC28J60.o
+ __c30_signature
+                  0x00008a          0x6 FileSystem.o
+ __c30_signature
+                  0x000090          0x6 FTP.o
+ __c30_signature
+                  0x000096          0x6 Hashes.o
+ __c30_signature
+                  0x00009c          0x6 Helpers.o
+ __c30_signature
+                  0x0000a2          0x6 HTTP2.o
+ __c30_signature
+                  0x0000a8          0x6 ICMP.o
+ __c30_signature
+                  0x0000ae          0x6 IP.o
+ __c30_signature
+                  0x0000b4          0x6 LCDBlocking.o
+ __c30_signature
+                  0x0000ba          0x6 MPFS2.o
+ __c30_signature
+                  0x0000c0          0x6 NBNS.o
+ __c30_signature
+                  0x0000c6          0x6 Random.o
+ __c30_signature
+                  0x0000cc          0x6 Reboot.o
+ __c30_signature
+                  0x0000d2          0x6 RSA.o
+ __c30_signature
+                  0x0000d8          0x6 SMTP.o
+ __c30_signature
+                  0x0000de          0x6 SNMP.o
+ __c30_signature
+                  0x0000e4          0x6 SNMPv3.o
+ __c30_signature
+                  0x0000ea          0x6 SNMPv3USM.o
+ __c30_signature
+                  0x0000f0          0x6 SNTP.o
+ __c30_signature
+                  0x0000f6          0x6 SPIEEPROM.o
+ __c30_signature
+                  0x0000fc          0x6 SPIFlash.o
+ __c30_signature
+                  0x000102          0x6 SPIRAM.o
+ __c30_signature
+                  0x000108          0x6 SSL.o
+ __c30_signature
+                  0x00010e          0x6 StackTsk.o
+ __c30_signature
+                  0x000114          0x6 TCP.o
+ __c30_signature
+                  0x00011a          0x6 TCPPerformanceTest.o
+ __c30_signature
+                  0x000120          0x6 Telnet.o
+ __c30_signature
+                  0x000126          0x6 TFTPc.o
+ __c30_signature
+                  0x00012c          0x6 Tick.o
+ __c30_signature
+                  0x000132          0x6 UART.o
+ __c30_signature
+                  0x000138          0x6 UART2TCPBridge.o
+ __c30_signature
+                  0x00013e          0x6 UDP.o
+ __c30_signature
+                  0x000144          0x6 UDPPerformanceTest.o
+ __c30_signature
+                  0x00014a          0x6 ZeroconfHelper.o
+ __c30_signature
+                  0x000150          0x6 ZeroconfLinkLocal.o
+ __c30_signature
+                  0x000156          0x6 ZeroconfMulticastDNS.o
+ __c30_signature
+                  0x00015c          0x6 CommandProcessing.o
+ __c30_signature
+                  0x000162          0x6 Client_Ethernet.o
+ __c30_signature
+                  0x000168          0x6 Client_HandControl.o
+ __c30_signature
+                  0x00016e          0x6 Client_Serial.o
+ __c30_signature
+                  0x000174          0x6 Client_WiFi.o
+ __c30_signature
+                  0x00017a          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+ __c30_signature
+                  0x000180          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+ __c30_signature
+                  0x000186          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(floatsisf.o)
+ __c30_signature
+                  0x00018c          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(addsf3.o)
+ __c30_signature
+                  0x000192          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsf3.o)
+ __c30_signature
+                  0x000198          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divsi3.o)
+ __c30_signature
+                  0x00019e          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(udivsi3.o)
+ __c30_signature
+                  0x0001a4          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fne.o)
+ __c30_signature
+                  0x0001aa          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsf3.o)
+ __c30_signature
+                  0x0001b0          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixunssfsi.o)
+ __c30_signature
+                  0x0001b6          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fixsfsi.o)
+ __c30_signature
+                  0x0001bc          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umodsi3.o)
+ __c30_signature
+                  0x0001c2          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(muldi3.o)
+ __c30_signature
+                  0x0001c8          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(divmoddi3.o)
+ __c30_signature
+                  0x0001ce          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fpack.o)
+ __c30_signature
+                  0x0001d4          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack2.o)
+ __c30_signature
+                  0x0001da          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(futil.o)
+ __c30_signature
+                  0x0001e0          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(fcompare.o)
+ __c30_signature
+                  0x0001e6          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(funpack.o)
+ __c30_signature
+                  0x0001ec          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(umuldi3.o)
+ __c30_signature
+                  0x0001f2          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcmp.XXo)
+ __c30_signature
+                  0x0001f8          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcmp.XXo)
+ __c30_signature
+                  0x0001fe          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcpy.XXo)
+ __c30_signature
+                  0x000204          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strlen.XXo)
+ __c30_signature
+                  0x00020a          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strcat.XXo)
+ __c30_signature
+                  0x000210          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncat.XXo)
+ __c30_signature
+                  0x000216          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strtol.XXo)
+ __c30_signature
+                  0x00021c          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memset.XXo)
+ __c30_signature
+                  0x000222          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(atol.XXo)
+ __c30_signature
+                  0x000228          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(memcpy.XXo)
+ __c30_signature
+                  0x00022e          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(strncmp.XXo)
+ __c30_signature
+                  0x000234          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(errno.XXo)
+ __c30_signature
+                  0x00023a          0x6 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libm-coff.a(mulsi3.o)
+
+.nbss               0x0800        0x9e2
+ .nbss              0x0800        0x604 FocusingRotator.o
+                    0x0802                  MyFocuser1
+                    0x08a6                  MyRotator1
+                    0x08e0                  HubInfo
+                    0x08e4                  WiFiInfo
+                    0x09e4                  CommandBuffer1
+                    0x0b44                  CommandBuffer2
+                    0x0ca4                  HubCommandBuffer
+ .nbss              0x0e04        0x142 TCP.o
+ .nbss              0x0f46         0xa0 HTTP2.o
+                    0x0f46                  curHTTP
+                    0x0fdc                  httpStubs
+                    0x0fe4                  curHTTPID
+ .nbss              0x0fe6         0x86 NVM.o
+ .nbss              0x106c         0x70 MPFS2.o
+                    0x10d8                  lastRead
+ .nbss              0x10dc         0x6c UDP.o
+                    0x10e2                  UDPSocketInfo
+                    0x1142                  activeUDPSocket
+                    0x1144                  UDPTxCount
+                    0x1146                  UDPRxCount
+ .nbss              0x1148         0x5c Client_WiFi.o
+                    0x1172                  DeviceStatus
+                    0x11a3                  lastStatusChkSum
+ .nbss              0x11a4         0x3e Main.o
+                    0x11a6                  AppConfig
+                    0x11d9                  AN0String
+
+.ndata              0x11e2         0xd8
+ .ndata             0x11e2         0x36 Client_Ethernet.o
+                    0x11e2                  EthernetBuffer
+                    0x1214                  EB_Read
+                    0x1216                  EB_Write
+ .ndata             0x1218         0x36 Client_HandControl.o
+                    0x1218                  HandControlBuffer
+                    0x124a                  HCB_Read
+                    0x124c                  HCB_Write
+ .ndata             0x124e         0x36 Client_Serial.o
+                    0x124e                  SerialBuffer
+                    0x1280                  SB_Read
+                    0x1282                  SB_Write
+ .ndata             0x1284         0x36 Client_WiFi.o
+                    0x1284                  WiFiBuffer
+                    0x12b6                  WiFiBfrRead
+                    0x12b8                  WiFiBfrWrite
+
+.nbss               0x12ba        0x112
+ .nbss              0x12ba         0x30 AutoIP.o
+ .nbss              0x12ea         0x28 DHCP.o
+ .nbss              0x1312         0x26 SPIEEPROM.o
+ .nbss              0x1338         0x20 Client_Ethernet.o
+                    0x1357                  MySocket
+ .nbss              0x1358         0x1c Client_HandControl.o
+ .nbss              0x1374         0x1c Client_Serial.o
+ .nbss              0x1390         0x18 DNS.o
+ .nbss              0x13a8         0x16 ARP.o
+ .nbss              0x13be          0xe StackTsk.o
+                    0x13c2                  remoteNode
+
+.ndata              0x13cc          0xc
+ .ndata             0x13cc          0xc FocusingRotator.o
+                    0x13cc                  CmdBuff1Head
+                    0x13ce                  CmdBuff1Tail
+                    0x13d0                  CmdBuff2Head
+                    0x13d2                  CmdBuff2Tail
+                    0x13d4                  HubBuffHead
+                    0x13d6                  HubBuffTail
+
+BigInt_helper_vars
+                    0x13d8          0xc
+ BigInt_helper_vars
+                    0x13d8          0xc BigInt_helper.o
+                    0x13d8                  _iA
+                    0x13da                  _xA
+                    0x13dc                  _iB
+                    0x13de                  _xB
+                    0x13e0                  _iR
+                    0x13e2                  _wC
+
+.nbss               0x13e4         0x1c
+ .nbss              0x13e4          0xa Tick.o
+ .nbss              0x13ee          0x8 ENC28J60.o
+ .nbss              0x13f6          0x6 RotatorMotion.o
+                    0x13f8                  HOMING_STATE
+                    0x13fa                  MOVING_STATE
+ .nbss              0x13fc          0x4 CustomHTTPApp.o
+
+.ndata              0x1400          0x4
+ .ndata             0x1400          0x4 RotatorMotion.o
+                    0x1400                  absMoveTargetPos
+
+.nbss               0x1404          0x4
+ .nbss              0x1404          0x4 Announce.o
+
+.ndata              0x1408          0x8
+ .ndata             0x1408          0x4 DNS.o
+ .ndata             0x140c          0x4 Helpers.o
+
+.nbss               0x1410          0xa
+ .nbss              0x1410          0x4 IP.o
+ .nbss              0x1414          0x4 NBNS.o
+ .nbss              0x1418          0x2 DIN_Input.o
+
+.ndata              0x141a          0x6
+ .ndata             0x141a          0x2 FocuserMotion.o
+                    0x141a                  motionState
+                    0x141b                  motionRequest
+ .ndata             0x141c          0x2 Stepper.o
+ .ndata             0x141e          0x2 DHCP.o
+                    0x141e                  DHCPClientInitializedOnce
+
+_03badaf04f84c8c0
+                    0x1420          0x2
+ _03badaf04f84c8c0
+                    0x1420          0x2 DNS.o
+
+.ndata              0x1422          0x2
+ .ndata             0x1422          0x2 TCP.o
+
+_03bcbaf04f84c8cc
+                    0x1424          0x2
+ _03bcbaf04f84c8cc
+                    0x1424          0x2 TCP.o
+
+.ndata              0x1426          0x2
+ .ndata             0x1426          0x2 UDP.o
+
+_03b223104f84c8cf
+                    0x1428          0x2
+ _03b223104f84c8cf
+                    0x1428          0x2 UDP.o
+
+.bss                0x142a          0x2
+ .bss               0x142a          0x2 c:/program files (x86)/microchip/mplabc30/v3.30c/bin/bin/../../lib\libc-coff.a(errno.XXo)
+                    0x142a                  errno
+
+.const              0x8bfe       0x1216 load address 0x000bfe  
+ .const             0x8bfe        0x7d0 HTTP2.o
+ .const             0x93ce        0x508 FocusingRotator.o
+ .const             0x98d6        0x17e CustomHTTPApp.o
+ .const             0x9a54        0x10e Client_WiFi.o
+                    0x9a54                  MinReqVersion
+ .const             0x9b62         0xc6 CommandProcessing.o
+ .const             0x9c28         0xa8 Client_Ethernet.o
+ .const             0x9cd0         0xa8 Client_HandControl.o
+ .const             0x9d78         0x44 Client_Serial.o
+ .const             0x9dbc         0x24 TCP.o
+                    0x9dbc                  TCPSocketInitializer
+ .const             0x9de0         0x1c Announce.o
+ .const             0x9dfc         0x10 Main.o
+ .const             0x9e0c          0x8 MPFS2.o
+
+.text             0x001e14       0xdc0c
+ .text            0x001e14       0x218c TCP.o
+                  0x001eb0                  TCPInit
+                  0x001f7a                  TCPOpen
+                  0x0020c2                  TCPWasReset
+                  0x0020e6                  TCPIsConnected
+                  0x002102                  TCPDisconnect
+                  0x00219e                  TCPClose
+                  0x0021b0                  TCPGetRemoteInfo
+                  0x0021cc                  TCPFlush
+                  0x0021e8                  TCPIsPutReady
+                  0x002232                  TCPPut
+                  0x0022bc                  TCPPutArray
+                  0x002388                  TCPPutString
+                  0x0023a4                  TCPGetTxFIFOFull
+                  0x0023c2                  TCPDiscard
+                  0x0023e0                  TCPIsGetReady
+                  0x002412                  TCPGet
+                  0x00247a                  TCPGetArray
+                  0x002534                  TCPGetRxFIFOFree
+                  0x002550                  TCPPeekArray
+                  0x0025f6                  TCPPeek
+                  0x00260e                  TCPFindArrayEx
+                  0x002892                  TCPFindEx
+                  0x0028b0                  TCPTick
+                  0x002d02                  TCPProcess
+                  0x003da2                  TCPAdjustFIFOSize
+ .text            0x003fa0       0x1e8a FocusingRotator.o
+                  0x003fa0                  InitFocusers
+                  0x003fe6                  InitFocusingRotator
+                  0x004210                  ResetLED
+                  0x00422a                  AddCmdToBfr
+                  0x004300                  ProcessReceivedCommands
+                  0x0043b4                  ProcessFocusingRotatorCmd
+                  0x004f0a                  conditionsOkToStartMove
+                  0x004f78                  sendOutput
+                  0x004fc6                  prepareConfigString
+                  0x0051c6                  prepareConfigStringRot
+                  0x0052e8                  prepareStatusString
+                  0x005488                  prepareStatusStringRot
+                  0x005570                  prepareHubInfoString
+                  0x005772                  prepareDiagString
+                  0x005794                  getTempString
+                  0x00581a                  getSignedDecString
+                  0x005a18                  getUnsignedDecString
+                  0x005bd0                  getUnsignedIntFromString
+                  0x005be2                  DoFocuserOperations
+                  0x005c20                  CalculateTemp
+                  0x005d4a                  CheckRemoteInOutPress
+                  0x005dce                  GetIPString
+ .text            0x005e2a       0x1728 HTTP2.o
+                  0x005e2a                  HTTPPrint
+                  0x005ecc                  HTTPPrint_
+                  0x005ee4                  HTTPInit
+                  0x005f50                  HTTPServer
+                  0x006f98                  HTTPURLDecode
+                  0x007062                  HTTPGetArg
+                  0x0070a2                  HTTPReadPostName
+                  0x0070ca                  HTTPReadPostValue
+                  0x00749e                  HTTPIncFile
+ .text            0x007552        0xcb8 ENC28J60.o
+                  0x007552                  MACInit
+                  0x007672                  MACIsLinked
+                  0x007686                  MACIsTxReady
+                  0x00769e                  MACDiscardRx
+                  0x0076d2                  MACGetFreeRxSize
+                  0x00775a                  MACGetHeader
+                  0x00783a                  MACPutHeader
+                  0x00788e                  MACFlush
+                  0x0079aa                  MACSetReadPtrInRx
+                  0x0079d8                  MACSetWritePtr
+                  0x007a06                  MACSetReadPtr
+                  0x007a34                  MACCalcRxChecksum
+                  0x007a8c                  CalcIPBufferChecksum
+                  0x007b40                  MACMemCopyAsync
+                  0x007cf2                  MACIsMemCopyDone
+                  0x007d0a                  MACGet
+                  0x007d3c                  MACGetArray
+                  0x007e16                  MACPut
+                  0x007e4e                  MACPutArray
+                  0x008006                  ReadPHYReg
+                  0x00813c                  WritePHYReg
+                  0x00818c                  MACPowerDown
+                  0x0081ba                  MACPowerUp
+                  0x0081da                  SetCLKOUT
+                  0x0081f0                  GetCLKOUT
+ .text            0x00820a        0xb5a NVM.o
+                  0x00820a                  LoadConfigFromNVM
+                  0x008472                  readDeviceSettingsFromNVM
+                  0x0084a6                  SaveDeviceConfig
+                  0x00887e                  saveDeviceSettingsToNVM
+                  0x0088a2                  SaveTempCompStartPoint
+                  0x008a3a                  SaveCurrentPositionFoc
+                  0x008b2c                  SaveCurrentPositionRot
+                  0x008c18                  SaveMagnetState
+                  0x008c46                  ResetToDefaults
+                  0x008c72                  setupSPI
+                  0x008c82                  writeEEP_SPI
+                  0x008c9a                  readSR
+                  0x008cb4                  ReadNVM
+                  0x008cdc                  writeNVM
+                  0x008d02                  writeEnable
+                  0x008d10                  GetMacAddrFromNvm
+ .text            0x008d64        0xaba MPFS2.o
+                  0x008d64                  MPFSInit
+                  0x008d98                  MPFSOpen
+                  0x008ee6                  MPFSOpenID
+                  0x008f6a                  MPFSClose
+                  0x008f8c                  MPFSGet
+                  0x00908e                  MPFSGetArray
+                  0x00919c                  MPFSGetLong
+                  0x0091bc                  MPFSSeek
+                  0x009398                  MPFSFormat
+                  0x009430                  MPFSPutArray
+                  0x0094d0                  MPFSPutEnd
+                  0x009528                  MPFSGetTimestamp
+                  0x009576                  MPFSGetMicrotime
+                  0x0095c4                  MPFSGetFlags
+                  0x009608                  MPFSGetSize
+                  0x009656                  MPFSGetBytesRem
+                  0x00969e                  MPFSGetStartAddr
+                  0x0096ee                  MPFSGetEndAddr
+                  0x009748                  MPFSGetFilename
+                  0x0097b0                  MPFSGetPosition
+                  0x0097d0                  MPFSGetID
+ .text            0x00981e        0x890 CustomHTTPApp.o
+                  0x00981e                  HTTPNeedsAuth
+                  0x009850                  HTTPCheckAuth
+                  0x00987a                  HTTPExecuteGet
+                  0x009926                  HTTPExecutePost
+                  0x009c2e                  HTTPPrint_builddate
+                  0x009c6a                  HTTPPrint_version
+                  0x009c84                  HTTPPrint_cookiename
+                  0x009cbe                  HTTPPrint_uploadedmd5
+                  0x009cfe                  HTTPPrintIP
+                  0x009d4c                  HTTPPrint_config_hostname
+                  0x009d64                  HTTPPrint_config_dhcpchecked
+                  0x009d86                  HTTPPrint_config_ip
+                  0x009dac                  HTTPPrint_config_gw
+                  0x009dd2                  HTTPPrint_config_subnet
+                  0x009df8                  HTTPPrint_config_dns1
+                  0x009e1e                  HTTPPrint_config_dns2
+                  0x009e44                  HTTPPrint_config_mac
+                  0x009ed6                  HTTPPrint_read_comm
+                  0x009ede                  HTTPPrint_write_comm
+                  0x009ee6                  HTTPPrint_reboot
+                  0x009eee                  HTTPPrint_rebootaddr
+                  0x009f06                  HTTPPrint_ddns_user
+                  0x009f0c                  HTTPPrint_ddns_pass
+                  0x009f12                  HTTPPrint_ddns_host
+                  0x009f18                  HTTPPrint_ddns_service
+                  0x009f20                  HTTPPrint_ddns_status
+                  0x009f3a                  HTTPPrint_ddns_status_msg
+                  0x009f7c                  HTTPPrint_smtps_en
+                  0x009f96                  HTTPPrint_snmp_en
+                  0x009fb0                  HTTPPrint_status_ok
+                  0x009fea                  HTTPPrint_status_fail
+                  0x00a024                  HTTPPrint_fNickname
+                  0x00a03e                  HTTPPrint_fCurrentPos
+                  0x00a066                  HTTPPrint_fCurrentTemp
+                  0x00a08c                  HTTPPrint_fTempCompOn
+ .text            0x00a0ae        0x86a DHCP.o
+                  0x00a0ae                  DHCPInit
+                  0x00a0ea                  DHCPDisable
+                  0x00a104                  DHCPEnable
+                  0x00a118                  DHCPIsEnabled
+                  0x00a130                  DHCPIsBound
+                  0x00a13e                  DHCPStateChanged
+                  0x00a15c                  DHCPIsServerDetected
+                  0x00a16c                  DHCPTask
+ .text            0x00a918        0x7f0 Helpers.o
+                  0x00a918                  LFSRSeedRand
+                  0x00a958                  LFSRRand
+                  0x00a9c6                  GenerateRandomDWORD
+                  0x00aabc                  StringToIPAddress
+                  0x00ac3c                  Base64Decode
+                  0x00ad7a                  uitoa
+                  0x00adf8                  hexatob
+                  0x00ae6e                  btohexa_high
+                  0x00ae96                  btohexa_low
+                  0x00aebc                  stricmppgm2ram
+                  0x00af54                  swaps
+                  0x00af6e                  swapl
+                  0x00afcc                  CalcIPChecksum
+                  0x00b040                  strupr
+                  0x00b07a                  FormatNetBIOSName
+                  0x00b0c2                  strnchr
+ .text            0x00b108        0x6f8 UDP.o
+                  0x00b108                  UDPInit
+                  0x00b122                  UDPOpenEx
+                  0x00b23e                  UDPTask
+                  0x00b412                  UDPIsOpened
+                  0x00b434                  UDPClose
+                  0x00b46c                  UDPSetTxBuffer
+                  0x00b47e                  UDPSetRxBuffer
+                  0x00b490                  UDPIsPutReady
+                  0x00b4c4                  UDPPut
+                  0x00b4f6                  UDPPutArray
+                  0x00b52c                  UDPPutString
+                  0x00b540                  UDPFlush
+                  0x00b58e                  UDPIsGetReady
+                  0x00b5be                  UDPGet
+                  0x00b5f2                  UDPGetArray
+                  0x00b63a                  UDPDiscard
+                  0x00b654                  UDPProcess
+ .text            0x00b800        0x6c2 DNS.o
+                  0x00b800                  DNSBeginUsage
+                  0x00b81c                  DNSEndUsage
+                  0x00b840                  DNSResolve
+                  0x00b86e                  DNSIsResolved
+ .text            0x00bec2        0x5de Client_WiFi.o
+                  0x00bec2                  InitClient_WiFi
+                  0x00bee6                  DoWiFiWork
+                  0x00c08e                  ReceiveWiFiCmds
+                  0x00c28a                  SendStringWiFiPassThru
+                  0x00c2d6                  pushByteToWiFiBuffer
+                  0x00c30c                  writeByteSpi
+                  0x00c34a                  ExitPassThruMode
+                  0x00c382                  EnterPassThruMode
+                  0x00c3a8                  GetWiFiData
+                  0x00c436                  SetWiFiData
+ .text            0x00c4a0        0x59a AutoIP.o
+                  0x00c4a0                  AutoIPInit
+                  0x00c4be                  AutoIPIsConfigured
+                  0x00c4d6                  AutoIPConfigIsInProgress
+                  0x00c4e6                  AutoIPTasks
+                  0x00c8be                  AutoIPConflict
+                  0x00c948                  AutoIPDisable
+                  0x00c9ea                  AutoIPEnable
+                  0x00c9f8                  AutoIPIsDisabled
+                  0x00ca10                  AutoIPRandSeed
+                  0x00ca20                  AutoIPRand
+ .text            0x00ca3a        0x50a FocuserMotion.o
+                  0x00ca3a                  FocuserMotionStateMachine
+                  0x00cd82                  finalizeMove
+                  0x00cd9e                  abortHome
+                  0x00cdc6                  RequestHaltFoc
+                  0x00cdd4                  RequestAbsoluteMoveFoc
+                  0x00cdec                  RequestHomeStartFoc
+                  0x00ce06                  StartRelativeMoveFoc
+                  0x00ce4c                  EndRelativeMoveFoc
+                  0x00ce5c                  DoFinalHomeMove
+                  0x00cf20                  FocHomeFailed
+ .text            0x00cf44        0x4c2 RotatorMotion.o
+                  0x00cf44                  HomingStateMachine
+                  0x00d08c                  RequestHomeStartRot
+                  0x00d09c                  RequestHaltRot
+                  0x00d0ca                  StartRelativeMoveRot
+                  0x00d126                  EndRelativeMoveRot
+                  0x00d13e                  HomeFailed
+                  0x00d15a                  HomeCompleted
+                  0x00d17c                  MovingStateMachine
+                  0x00d26a                  FinalizeMove
+                  0x00d286                  RequestAbsoluteMoveRot
+                  0x00d2ae                  StartHomeMove
+                  0x00d320                  GetShortestMoveDirection
+                  0x00d3b0                  MagnetMonitorStateMachine
+ .text            0x00d406        0x438 DIN_Input.o
+                  0x00d406                  InitDIN_Input
+                  0x00d434                  _IC1Interrupt
+                  0x00d4b2                  ProcessDinInData
+ .text            0x00d83e        0x42c ARP.o
+                  0x00d8ae                  ARPInit
+                  0x00d8e4                  ARPProcess
+                  0x00da78                  ARPResolve
+                  0x00db44                  ARPIsResolved
+                  0x00dc3e                  SwapARPPacket
+ .text            0x00dc6a        0x3b4 Main.o
+                  0x00dc6a                  _AddressError
+                  0x00dc74                  _StackError
+                  0x00dc7e                  main
+                  0x00dca8                  InitPic
+                  0x00dff6                  SaveAppConfig
+ .text            0x00e01e        0x392 CommandProcessing.o
+                  0x00e01e                  InterpretCommandString
+ .text            0x00e3b0        0x342 Stepper.o
+                  0x00e3b0                  InitSteppers
+                  0x00e3e6                  _T4Interrupt
+                  0x00e4c0                  _T5Interrupt
+                  0x00e614                  SetStepperSpeedPPS
+                  0x00e656                  SetStepperCurrent
+                  0x00e6ce                  FreezeStepper
+                  0x00e6e0                  UnfreezeStepper
+ .text            0x00e6f2        0x32e SPIEEPROM.o
+                  0x00e6f2                  XEEInit
+                  0x00e710                  XEEBeginRead
+                  0x00e724                  XEERead
+                  0x00e762                  XEEEndRead
+                  0x00e76a                  XEEReadArray
+                  0x00e836                  XEEBeginWrite
+                  0x00e84a                  XEEWrite
+                  0x00e886                  XEEWriteArray
+                  0x00e8a8                  XEEEndWrite
+                  0x00e9b4                  XEEIsBusy
+ .text            0x00ea20        0x30e NBNS.o
+                  0x00ea20                  NBNSTask
+ .text            0x00ed2e        0x2cc Client_Ethernet.o
+                  0x00ed2e                  ReceiveEthernetCmds
+                  0x00edd4                  ProcessBufferData
+                  0x00efa4                  sendStringEthernet
+ .text            0x00effa        0x2bc Client_Serial.o
+                  0x00effa                  InitClient_Serial
+                  0x00f042                  sendByteUART
+                  0x00f058                  sendStringUART
+                  0x00f082                  _U1RXInterrupt
+                  0x00f0e6                  ReceiveSerialCmds
+ .text            0x00f2b6        0x2b2 Client_HandControl.o
+                  0x00f2b6                  InitClient_HandControl
+                  0x00f2f0                  sendByteUART_HC
+                  0x00f306                  sendStringUART_HC
+                  0x00f330                  _U2RXInterrupt
+                  0x00f394                  ReceiveSerialCmds_HC
+ .text            0x00f568        0x27e TempComp.o
+                  0x00f568                  InitTempComp
+                  0x00f576                  DoTempComp
+ .text            0x00f7e6        0x23a StackTsk.o
+                  0x00f7e6                  StackInit
+                  0x00f814                  StackTask
+                  0x00fa14                  StackApplications
+
+.dinit            0x00fa20        0x1a0
+ .dinit           0x00fa20        0x1a0 data_init
+
+.text             0x00fbc0        0x598
+ .text            0x00fbc0        0x198 IP.o
+                  0x00fbc0                  IPGetHeader
+                  0x00fc84                  IPPutHeader
+                  0x00fd1c                  IPSetRxBuffer
+ .text            0x00fd58        0x136 Announce.o
+                  0x00fd58                  AnnounceIP
+                  0x00fdc8                  DiscoveryTask
+ .text            0x00fe8e        0x114 Tick.o
+                  0x00fe8e                  TickInit
+                  0x00ff0a                  TickGet
+                  0x00ff16                  TickGetDiv256
+                  0x00ff3e                  TickGetDiv64K
+                  0x00ff66                  TickConvertToMilliseconds
+                  0x00ff8a                  _T1Interrupt
+ .text            0x00ffa2         0xdc BigInt_helper.o
+                  0x00ffa2                  _addBI
+                  0x00ffc2                  _subBI
+                  0x00ffe2                  _zeroBI
+                  0x00ffee                  _msbBI
+                  0x00fffe                  _mulBI
+                  0x010034                  _sqrBI
+                  0x01003e                  _masBI
+                  0x010060                  _copyBI
+ .text            0x01007e         0x6c ICMP.o
+                  0x01007e                  ICMPProcess
+ .text            0x0100ea         0x62 Delay.o
+                  0x0100ea                  DelayMs
+                  0x010114                  Delay10us
+ .text            0x01014c          0xc Rotator.o
+                  0x01014c                  DoRotatorOperations

@@ -1,0 +1,37 @@
+Microchip Technology Inc, vv3_31 (A) Z
+
+Tool Name:
+  c:\jordansrepos\focusingrotator2\c30\v3.31\bin\bin\..\bin/pic30-coff-ld.exe
+
+Command:
+  -p24HJ128GP204 \
+  -oFocusingRotator.cof \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/.. \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/PIC24E/gld \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/PIC24F/gld \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/PIC24H/gld \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/jordansrepos/focusingrotator2/c30/v3.31/bin/bin/../../support/dsPIC33F/gld \
+  build/test/out/test_CommandProcessing_runner.o \
+  build/test/out/test_CommandProcessing.o \
+  build/test/out/unity.o \
+  build/test/out/CommandProcessing.o \
+  build/test/out/cmock.o \
+  -L..\src\code \
+  -L..\src\TCPIP_Stack \
+  -L..\C30\v3.31\bin \
+  -L..\C30\v3.31\bin\bin \
+  -Tp24HJ128GP204.gld.00 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Map=FocusingRotator.map \
+  --report-mem \
+  -start-group \
+  --library=pic30-coff \
+  --library=m-coff \
+  --library=c-coff \
+  -end-group \
+  -Tp24HJ128GP204.gld.01 \
+
+
+Optional library libp24HJ128GP204.a not found

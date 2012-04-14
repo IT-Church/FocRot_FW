@@ -1,0 +1,197 @@
+---
+:project:
+  :use_exceptions: false
+  :use_mocks: true
+  :use_test_preprocessor: false
+  :use_deep_dependencies: false
+  :test_file_prefix: test_
+  :options_paths: []
+  :release_build: true
+  :name: OptecFocusingRotator
+  :use_auxiliary_dependencies: true
+  :build_root: build
+:release_build:
+  :use_assembly: false
+  :artifacts: []
+  :output: MyApp.out
+:paths:
+  :test:
+  - +:test/**
+  - -:test/support
+  :source:
+  - src/**
+  :support:
+  - test/support
+  :include:
+  - C30/v3.31/include
+  - include/**
+  - vendor/ceedling/vendor/unity/src
+  :test_toolchain_include: []
+  :release_toolchain_include: []
+:files:
+  :test: []
+  :source: []
+  :assembly: []
+  :support: []
+  :include: []
+:environment:
+- :rake_columns: '120'
+- :path: C30/v3.31/bin;C30/v3.31/bin/bin
+:defines:
+  :test:
+  - UNITY_INT_WIDTH=16
+  - UNITY_POINTER_WIDTH=16
+  - CMOCK_MEM_SIZE=500
+  - CMOCK_MEM_PTR_AS_INT="unsigned int"
+  - CMOCK_MEM_INDEX_TYPE="unsigned int"
+  - CMOCK_MEM_ALIGN=1
+  :test_preprocess:
+  - - INCLUDE_ROTATOR
+  - TEST
+  :release: []
+  :release_preprocess: []
+  :commmon:
+  - INCLUDE_ROTATOR
+:flags: {}
+:extension:
+  :header: .h
+  :source: .c
+  :assembly: .s
+  :object: .o
+  :executable: .out
+  :map: .map
+  :list: .lst
+  :testpass: .pass
+  :testfail: .fail
+  :dependencies: .d
+:unity:
+  :defines: []
+:cmock:
+  :defines: []
+  :callback_after_arg_check: true
+  :mock_prefix: mock_
+  :when_no_prototypes: :warn
+  :enforce_strict_ordering: true
+  :plugins:
+  - :ignore
+  :treat_as:
+    uint8: HEX8
+    uint16: HEX16
+    uint32: UINT32
+    int8: INT8
+    bool: UINT8
+  :mock_path: !binary |-
+    YnVpbGQvdGVzdC9tb2Nrcw==
+  :verbosity: 3
+  :unity_helper: false
+:cexception:
+  :defines: []
+:test_runner:
+  :includes: []
+  :file_suffix: _runner
+:tools:
+  :test_compiler:
+    :executable: pic30-gcc.exe
+    :arguments:
+    - -mcpu=24HJ128GP204
+    - -x c
+    - -c
+    - ${1}
+    - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+    - -D$: COLLECTION_DEFINES_TEST_AND_VENDOR
+    - -o${2}
+    - -g
+    - -Wall
+    - -mlarge-code
+    - -O3
+    :name: test_compiler
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+  :test_linker:
+    :executable: pic30-gcc.exe
+    :arguments:
+    - -mcpu=24HJ128GP204
+    - ${1}
+    - -o"FocusingRotator.cof"
+    - -Tp24HJ128GP204.gld
+    - -Wl,-L"..\src\code",-L"..\src\TCPIP_Stack",-L"..\C30\v3.31\bin",-L"..\C30\v3.31\bin\bin",-Tp24HJ128GP204.gld,--defsym=__MPLAB_BUILD=1,-Map="FocusingRotator.map",--report-mem
+    :name: test_linker
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+  :release_compiler:
+    :executable: pic30-gcc.exe
+    :arguments:
+    - -mcpu=24HJ128GP204
+    - -c
+    - ${1}
+    - -o${2}
+    - -I"$": COLLECTION_PATHS_TEST_SUPPORT_SOURCE_INCLUDE_VENDOR
+    - -D"__PIC24H__"
+    - -D"__C30__"
+    - -D"__PIC24HJ128GP204__"
+    - -D$: COLLECTION_DEFINES_TEST_AND_VENDOR
+    - -g
+    - -Wall
+    - -mlarge-code
+    - -O3
+    :name: release_compiler
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+  :release_linker:
+    :executable: pic30-gcc.exe
+    :arguments:
+    - -mcpu=24HJ128GP204
+    - ${1}
+    - -o"FocusingRotator.cof"
+    - -Wl,-L"..\src\code",-L"..\src\TCPIP_Stack",-L"C30\v3.31\bin",-Tp24HJ128GP204.gld
+    :name: release_linker
+    :stderr_redirect: :none
+    :background_exec: :none
+    :optional: false
+  :test_fixture:
+    :executable: ${1}
+    :name: default_test_fixture
+    :stderr_redirect: :auto
+    :background_exec: :none
+    :optional: false
+    :arguments: []
+:test_compiler:
+  :arguments: []
+:test_linker:
+  :arguments: []
+:test_fixture:
+  :arguments: []
+  :link_objects: []
+:test_includes_preprocessor:
+  :arguments: []
+:test_file_preprocessor:
+  :arguments: []
+:test_dependencies_generator:
+  :arguments: []
+:release_compiler:
+  :arguments: []
+:release_linker:
+  :arguments: []
+:release_assembler:
+  :arguments: []
+:release_dependencies_generator:
+  :arguments: []
+:plugins:
+  :load_paths:
+  - vendor/ceedling/plugins
+  :enabled:
+  - stdout_pretty_tests_report
+  - module_generator
+  :display_raw_test_results: false
+  :stdout_pretty_tests_report_path: !binary |-
+    dmVuZG9yL2NlZWRsaW5nL3BsdWdpbnMvc3Rkb3V0X3ByZXR0eV90ZXN0c19y
+    ZXBvcnQvbGli
+  :module_generator_path: !binary |-
+    dmVuZG9yL2NlZWRsaW5nL3BsdWdpbnMvbW9kdWxlX2dlbmVyYXRvci9saWI=
+:module_generator:
+  :project_root: ./
+  :source_root: src/
+  :test_root: test/
