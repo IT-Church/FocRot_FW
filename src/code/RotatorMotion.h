@@ -10,8 +10,8 @@ void HomingStateMachine();
 void MovingStateMachine();
 void MagnetMonitorStateMachine();
 
-#define ON					1
-#define OFF					0
+#define ON					0
+#define OFF					1
 
 #endif
 
